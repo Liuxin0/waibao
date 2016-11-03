@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 03 19:26:04 CST 2016
+#Thu Nov 03 20:15:56 CST 2016
 25.file=E\:\\software\\git\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\findrents_fragment.xml
 25.base=E\:\\software\\git\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_
 22.set=ANDROID_RESOURCE

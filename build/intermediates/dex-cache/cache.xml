@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="16ebe666b1bf053a694d8d82c397973b400a47b1">
+        sha1="6736d846ec8c575993fb5d5f6dfbbc4075e2d0fa">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run_7a99ea41beefed9660be405e97c18da11106988a.jar" />
     </item>
     <item
@@ -70,8 +70,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="37af8820d4ccfd8a8f4b5d57b9f68a44df21b810">
+        sha1="1db59c615f216ebca9e09545fa8c22140583c123">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3f56dbb7c9844e16b3e79dfb38593fb670005861.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\caolu\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_6aaef1dc7bd3b060e0effd990c8512909c3b8a0b.jar" />
     </item>
     <item
         is-multidex="false"

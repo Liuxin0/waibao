@@ -42,7 +42,7 @@ public class HomepageMain extends Fragment{
                 startActivity(intent);
             }
         });
-        initFragment();
+
         return view;
     }
 
@@ -50,8 +50,8 @@ public class HomepageMain extends Fragment{
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
-        /*group = (RadioGroup) getActivity().findViewById(R.id.rightradiobaba);
+        initFragment();
+        group = (RadioGroup) getActivity().findViewById(R.id.rightradiobaba);
         rents = (Button) getActivity().findViewById(R.id.homepagemain_fragment_rents);
         house = (Button) getActivity().findViewById(R.id.homepagemain_fragment_house);
         group.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -78,7 +78,7 @@ public class HomepageMain extends Fragment{
                         break;
                 }
             }
-        });*/
+        });
 
     }
 

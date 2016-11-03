@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 03 19:26:41 CST 2016
+#Thu Nov 03 20:16:33 CST 2016
 5.base=E\:\\software\\git\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_
 42.base=E\:\\software\\git\\waibao\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar
 32.set=JAVA_RESOURCE
