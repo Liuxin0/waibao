@@ -1,0 +1,142 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\inspectionProfiles\
+* .idea\inspectionProfiles\Project_Default.xml
+* .idea\inspectionProfiles\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\waibaoFirst.iml
+* .idea\workspace.xml
+* ant.properties
+* build.xml
+* out\
+* out\production\
+* out\production\rental\
+* out\production\rental\ThirdParityLibraries\
+* out\production\rental\ThirdParityLibraries\FButton.class
+* out\production\rental\ThirdParityLibraries\floatlabelededittext\
+* out\production\rental\ThirdParityLibraries\floatlabelededittext\FloatLabeledEditText$1.class
+* out\production\rental\ThirdParityLibraries\floatlabelededittext\FloatLabeledEditText$2.class
+* out\production\rental\ThirdParityLibraries\floatlabelededittext\FloatLabeledEditText$3.class
+* out\production\rental\ThirdParityLibraries\floatlabelededittext\FloatLabeledEditText.class
+* out\production\rental\ThirdParityLibraries\floatlabelededittext\Utils.class
+* out\production\rental\com\
+* out\production\rental\com\example\
+* out\production\rental\com\example\rental\
+* out\production\rental\com\example\rental\BuildConfig.class
+* out\production\rental\com\example\rental\Login\
+* out\production\rental\com\example\rental\Login\CheckString.class
+* out\production\rental\com\example\rental\Login\FindPasswordFragment$1.class
+* out\production\rental\com\example\rental\Login\FindPasswordFragment$2.class
+* out\production\rental\com\example\rental\Login\FindPasswordFragment$FFindClickListener.class
+* out\production\rental\com\example\rental\Login\FindPasswordFragment.class
+* out\production\rental\com\example\rental\Login\LoginActivity.class
+* out\production\rental\com\example\rental\Login\LoginFragment$1.class
+* out\production\rental\com\example\rental\Login\LoginFragment$2.class
+* out\production\rental\com\example\rental\Login\LoginFragment$3.class
+* out\production\rental\com\example\rental\Login\LoginFragment$4.class
+* out\production\rental\com\example\rental\Login\LoginFragment$FLoginBtnClick.class
+* out\production\rental\com\example\rental\Login\LoginFragment.class
+* out\production\rental\com\example\rental\Login\RegisterFragment$1.class
+* out\production\rental\com\example\rental\Login\RegisterFragment$2.class
+* out\production\rental\com\example\rental\Login\RegisterFragment$3.class
+* out\production\rental\com\example\rental\Login\RegisterFragment$FRegisterClickListener.class
+* out\production\rental\com\example\rental\Login\RegisterFragment.class
+* out\production\rental\com\example\rental\Map$1.class
+* out\production\rental\com\example\rental\Map.class
+* out\production\rental\com\example\rental\MyActivity.class
+* out\production\rental\com\example\rental\R$attr.class
+* out\production\rental\com\example\rental\R$color.class
+* out\production\rental\com\example\rental\R$dimen.class
+* out\production\rental\com\example\rental\R$drawable.class
+* out\production\rental\com\example\rental\R$id.class
+* out\production\rental\com\example\rental\R$integer.class
+* out\production\rental\com\example\rental\R$layout.class
+* out\production\rental\com\example\rental\R$string.class
+* out\production\rental\com\example\rental\R$style.class
+* out\production\rental\com\example\rental\R$styleable.class
+* out\production\rental\com\example\rental\R.class
+* out\production\rental\com\example\rental\discovery\
+* out\production\rental\com\example\rental\discovery\DiscoveryMain.class
+* out\production\rental\com\example\rental\friend\
+* out\production\rental\com\example\rental\friend\FriendMain.class
+* out\production\rental\com\example\rental\homepage\
+* out\production\rental\com\example\rental\homepage\FindHouseFragment.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment$1.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment$2.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment$3.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment$4.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment$5.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment$6.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment$MyFlag.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment$MyLinearLayouts.class
+* out\production\rental\com\example\rental\homepage\FindRentsFragment.class
+* out\production\rental\com\example\rental\homepage\HomepageMain$1.class
+* out\production\rental\com\example\rental\homepage\HomepageMain$2.class
+* out\production\rental\com\example\rental\homepage\HomepageMain.class
+* out\production\rental\com\example\rental\homepage\RentsAdapter$1.class
+* out\production\rental\com\example\rental\homepage\RentsAdapter.class
+* out\production\rental\com\example\rental\homepage\RentsBean.class
+* out\production\rental\com\example\rental\homepage\ViewHolder.class
+* out\production\rental\com\example\rental\mine\
+* out\production\rental\com\example\rental\mine\MineMain.class
+* out\production\rental\com\example\rental\model\
+* out\production\rental\com\example\rental\model\UserModel.class
+* out\production\rental\com\example\rental\service\
+* out\production\rental\com\example\rental\service\Listener.class
+* out\production\rental\com\example\rental\service\UserService$1.class
+* out\production\rental\com\example\rental\service\UserService$2.class
+* out\production\rental\com\example\rental\service\UserService.class
+* out\production\rental\com\example\rental\util\
+* out\production\rental\com\example\rental\util\HttpRequest.class
+* out\production\rental\com\example\rental\util\Md5.class
+* out\production\rental\com\example\rental\view\
+* out\production\rental\com\example\rental\view\TopLinearlayout$1.class
+* out\production\rental\com\example\rental\view\TopLinearlayout.class
+* out\production\rental\rental.apk
+* out\production\rental\rental.unaligned.apk
+* proguard-project.txt
+* rental.iml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014.jar => app\libs\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014.jar
+* libs\android-async-http-1.4.8.jar => app\libs\android-async-http-1.4.8.jar
+* libs\gson.jar => app\libs\gson.jar
+* libs\nineoldandroids-2.4.0.jar => app\libs\nineoldandroids-2.4.0.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

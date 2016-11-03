@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\libs\android-async-http-1.4.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.8_86c216ab23df9035ab3d59fc6904b1b6b686f180.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d2f89205a4ab147e8dafbcd4c689d6b5fef2af4b">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\instant-run_543e966d016fe1a435fc62e67d486081eb5054ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\libs\gson.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\gson_a274b720d837e2c7313b7bd3d67d77d5d185d0c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\1111\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0_cfa2fb9bed48b22b7eac8b98d3d60a0e59bcda8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0_e3d158a9c45f2c840492262194fd24f92128c313.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.0_e3d727bf407dd31942f84cbbbb3e7b3c0095d4c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\libs\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dbebb1ea9963d743b367654302303d46de6ec3c9">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014_f8b616857e27e1edcca9dbb26697bc9a7370eadd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c2e4cea6dbb2ec0ef991b6f953faedd3840c922">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_6f5e171f55b87478911eb2422822c035de50bc2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_47b725a9fd575395ac626a4ed19e9b71d807fa36.jar" />
+    </item>
+
+</items>
