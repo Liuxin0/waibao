@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                  android:orientation="horizontal">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      android:id="@+id/homepagerents_popup1_check1"
+                      android:background="@drawable/popup_layout_item_selector"
+        >
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="程序员"
+                        style="@style/popupwindow_textview"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/homepagerents_popup1_check1_text"
+                />
+                <ImageView android:layout_width="14sp" android:layout_height="14sp"
+                           android:layout_centerVertical="true"
+                           android:layout_alignParentRight="true"
+                           android:id="@+id/homepagerents_popup1_check1_img"
+                />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      android:id="@+id/homepagerents_popup1_check2"
+                      android:background="@drawable/popup_layout_item_selector">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="公务员"
+                        android:textColor="@color/black"
+                        android:id="@+id/homepagerents_popup1_check2_text"
+                        style="@style/popupwindow_textview"
+                />
+                <ImageView android:layout_width="14sp" android:layout_height="14sp"
+                           android:layout_centerVertical="true"
+                           android:layout_alignParentRight="true"
+                           android:id="@+id/homepagerents_popup1_check2_img"
+                />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                  android:orientation="horizontal">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      android:id="@+id/homepagerents_popup1_check3"
+                      android:background="@drawable/popup_layout_item_selector"
+        >
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="教师"
+                        style="@style/popupwindow_textview"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/homepagerents_popup1_check3_text"
+                />
+                <ImageView android:layout_width="14sp" android:layout_height="14sp"
+                           android:layout_centerVertical="true"
+                           android:layout_alignParentRight="true"
+                           android:id="@+id/homepagerents_popup1_check3_img"
+                />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      android:id="@+id/homepagerents_popup1_check4"
+                      android:background="@drawable/popup_layout_item_selector">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="学生"
+                        android:textColor="@color/black"
+                        android:id="@+id/homepagerents_popup1_check4_text"
+                        style="@style/popupwindow_textview"
+                />
+                <ImageView android:layout_width="14sp" android:layout_height="14sp"
+                           android:layout_centerVertical="true"
+                           android:layout_alignParentRight="true"
+                           android:id="@+id/homepagerents_popup1_check4_img"
+                />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1sp"
+          android:background="#e0e0e0"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                  android:orientation="horizontal">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="horizontal">
+            <TextView
+                    android:text="重置"
+                    android:id="@+id/homepagerents_popup1_reset"
+                    style="@style/popupwindow_textview"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="horizontal">
+            <TextView
+                    android:text="确定"
+                    android:id="@+id/homepagerents_popup1_ok"
+                    style="@style/popupwindow_textview"
+                    android:textColor="@color/white"
+                    android:background="@color/red"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1sp"
+          android:background="#e0e0e0"/>
+</LinearLayout>

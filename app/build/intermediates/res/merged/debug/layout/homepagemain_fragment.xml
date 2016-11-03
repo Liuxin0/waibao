@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingTop="15dp"
+                  android:background="@color/top_green">
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:text="tomap"
+                android:id="@+id/tomap"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:orientation="horizontal"
+    android:background="@color/light_grey">
+        <RadioGroup
+                android:id="@+id/rightradiobaba"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+            <RadioButton
+                    android:id="@+id/homepagemain_fragment_rents"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:checked="true"
+                    android:text="找合租"
+                    android:button="@null"
+                    android:textColor="@drawable/homepage_toptext_selector"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+
+            />
+            <RadioButton
+                    android:id="@+id/homepagemain_fragment_house"
+                    android:button="@null"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:text="找房源"
+                    android:gravity="center"
+                    android:textColor="@drawable/homepage_toptext_selector"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1sp"
+    android:background="@color/dark_grey"/>
+    <fragment
+            android:id="@+id/homepagemain_fragment11"
+            android:name="com.example.rental.homepage.FindRentsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"/>
+    <fragment
+            android:id="@+id/homepagemain_fragment22"
+            android:name="com.example.rental.homepage.FindHouseFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"/>
+
+</LinearLayout>

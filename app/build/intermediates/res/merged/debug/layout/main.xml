@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <fragment
+            android:id="@+id/main_fragment1"
+            android:name="com.example.rental.homepage.HomepageMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"/>
+
+    <fragment
+            android:id="@+id/main_fragment2"
+            android:name="com.example.rental.discovery.DiscoveryMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"/>
+
+    <fragment
+            android:id="@+id/main_fragment3"
+            android:name="com.example.rental.friend.FriendMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"/>
+
+    <fragment
+            android:id="@+id/main_fragment4"
+            android:name="com.example.rental.mine.MineMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"/>
+    <com.example.rental.view.TopLinearlayout
+            android:id="@+id/myactivity_topview"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/title"
+            android:layout_weight="1" >
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="主页"
+                android:textColor="#ccffffff"
+                android:textSize="16sp" />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="发现"
+                android:textColor="#ccffffff"
+                android:textSize="16sp" />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="好友"
+                android:textColor="#ccffffff"
+                android:textSize="16sp" />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="我的"
+                android:textColor="#ccffffff"
+                android:textSize="16sp" />
+    </com.example.rental.view.TopLinearlayout>
+</LinearLayout>
+

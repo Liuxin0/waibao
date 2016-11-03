@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.0$Generated" generated="true"><source path="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="D:\work\study\AndroidProject\waibao\app\src\main\res"/><source path="D:\work\study\AndroidProject\waibao\app\build\generated\res\rs\debug"/><source path="D:\work\study\AndroidProject\waibao\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="D:\work\study\AndroidProject\waibao\app\src\debug\res"/></dataSet><dataSet config="21.0.0" from-dependency="true" generated-set="21.0.0$Generated"><source path="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\work\study\AndroidProject\waibao\app\src\main\res"><file name="homepagerents_text_selectsome_selector" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable\homepagerents_text_selectsome_selector.xml" qualifiers="" type="drawable"/><file name="homepage_text_selector" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable\homepage_text_selector.xml" qualifiers="" type="drawable"/><file name="homepage_toptext_selector" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable\homepage_toptext_selector.xml" qualifiers="" type="drawable"/><file name="layout_item_selector" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable\layout_item_selector.xml" qualifiers="" type="drawable"/><file name="login_button_selector" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable\login_button_selector.xml" qualifiers="" type="drawable"/><file name="popup_layout_item_selector" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable\popup_layout_item_selector.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="title" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable-hdpi\title.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="checkok" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable-xhdpi\checkok.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\work\study\AndroidProject\waibao\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="discoverymain_fragment" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\discoverymain_fragment.xml" qualifiers="" type="layout"/><file name="findhouse_fragment" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\findhouse_fragment.xml" qualifiers="" type="layout"/><file name="findrents_fragment" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\findrents_fragment.xml" qualifiers="" type="layout"/><file name="findrents_item1" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\findrents_item1.xml" qualifiers="" type="layout"/><file name="findrents_item2" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\findrents_item2.xml" qualifiers="" type="layout"/><file name="friendmain_fragment" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\friendmain_fragment.xml" qualifiers="" type="layout"/><file name="homepagemain_fragment" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\homepagemain_fragment.xml" qualifiers="" type="layout"/><file name="homepagerents_popup1" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\homepagerents_popup1.xml" qualifiers="" type="layout"/><file name="homepagerents_popup2" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\homepagerents_popup2.xml" qualifiers="" type="layout"/><file name="login_login" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\login_login.xml" qualifiers="" type="layout"/><file name="login_main" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\login_main.xml" qualifiers="" type="layout"/><file name="login_register" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\login_register.xml" qualifiers="" type="layout"/><file name="main" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file name="map" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\map.xml" qualifiers="" type="layout"/><file name="minemain_fragment" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\minemain_fragment.xml" qualifiers="" type="layout"/><file name="register_find" path="D:\work\study\AndroidProject\waibao\app\src\main\res\layout\register_find.xml" qualifiers="" type="layout"/><file path="D:\work\study\AndroidProject\waibao\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="FloatLabeledEditText">
+        <attr format="reference" name="fletTextAppearance"/>
+        <attr format="reference|dimension" name="fletPadding"/>
+        <attr format="reference|dimension" name="fletPaddingLeft"/>
+        <attr format="reference|dimension" name="fletPaddingTop"/>
+        <attr format="reference|dimension" name="fletPaddingRight"/>
+        <attr format="reference|dimension" name="fletPaddingBottom"/>
+        <attr format="reference|color" name="fletBackground"/>
+    </declare-styleable><declare-styleable name="Themes">
+        <attr format="reference" name="waveViewStyle"/>
+    </declare-styleable><declare-styleable name="CircleImageView">
+        <attr format="dimension" name="border_width"/>
+        <attr format="color" name="border_color"/>
+        <attr format="boolean" name="border_overlay"/>
+    </declare-styleable><declare-styleable name="FButton">
+        <attr format="boolean" name="shadowEnabled"/>
+        <attr format="color" name="buttonColor"/>
+        <attr format="color" name="shadowColor"/>
+        <attr format="dimension" name="shadowHeight"/>
+        <attr format="dimension" name="cornerRadius"/>
+    </declare-styleable><declare-styleable name="WaveView">
+        <attr format="color" name="above_wave_color"/>
+        <attr format="color" name="blow_wave_color"/>
+        <attr format="integer" name="progress"/>
+        <attr format="enum" name="wave_length">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr>
+        <attr format="enum" name="wave_height">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr>
+        <attr format="enum" name="wave_hz">
+            <enum name="fast" value="1"/>
+            <enum name="normal" value="2"/>
+            <enum name="slow" value="3"/>
+        </attr>
+    </declare-styleable></file><file path="D:\work\study\AndroidProject\waibao\app\src\main\res\values\colors.xml" qualifiers=""><color name="fbutton_color_concrete">#95a5a6</color><color name="grey_400">#bdbdbd</color><color name="highlight">#FF8200</color><color name="title_blue">#0099FF</color><color name="light_grey">#eeeeee</color><color name="hint">#616161</color><color name="grey_50">#fafafa</color><color name="fbutton_color_asbestos">#7f8c8d</color><color name="bottom_color">@color/white</color><color name="fbutton_color_amethyst">#9b59b6</color><color name="fbutton_color_green_sea">#16a085</color><color name="black">#000000</color><color name="line_grey">#e3e4e6</color><color name="fbutton_color_nephritis">#27ae60</color><color name="fbutton_color_sun_flower">#f1c40f</color><color name="weibo_listtab_off">#8d8d8d</color><color name="fbutton_color_carrot">#e67e22</color><color name="fbutton_color_alizarin">#e74c3c</color><color name="fbutton_color_transparent">@android:color/transparent</color><color name="newblue">#48CFAD</color><color name="fbutton_default_color">#3eadeb</color><color name="transparent">#0000</color><color name="fbutton_color_orange">#f39c12</color><color name="darker_blue">#81d4fa</color><color name="red">#e51c23</color><color name="dark_grey">#7D7D7D</color><color name="fbutton_color_silver">#bdc3c7</color><color name="top_back_text">#e1f5fe</color><color name="top_green">#48CFAD</color><color name="fbutton_color_pumpkin">#d35400</color><color name="fbutton_default_shadow_color">#ff3493c8</color><color name="fbutton_color_turquoise">#1abc9c</color><color name="fbutton_color_emerald">#2ecc71</color><color name="mid_grey">#e1e1e1</color><color name="green">#00FF00</color><color name="fbutton_color_belize_hole">#2980b9</color><color name="blue">@android:color/holo_blue_bright</color><color name="fbutton_color_midnight_blue">#2c3e50</color><color name="fbutton_color_clouds">#ecf0f1</color><color name="actionbar_title_color">@android:color/white</color><color name="fbutton_color_pomegranate">#c0392b</color><color name="darkblue">#29b6f6</color><color name="fbutton_color_wisteria">#8e44ad</color><color name="fbutton_color_wet_asphalt">#34495e</color><color name="white">#ffffff</color><color name="grey_100">#f5f5f5</color><color name="fbutton_color_peter_river">#3498db</color></file><file path="D:\work\study\AndroidProject\waibao\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="list_padding">10dp</dimen><dimen name="header_height">300dp</dimen><dimen name="fbutton_default_padding_right">10dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="fbutton_default_padding_top">5dp</dimen><dimen name="top_height">80dp</dimen><dimen name="fbutton_default_padding_bottom">5dp</dimen><dimen name="home_padding">16dp</dimen><dimen name="edpadding">2dp</dimen><dimen name="header_logo_size">100dp</dimen><dimen name="shadow_width">15dp</dimen><integer name="num_cols">1</integer><dimen name="fbutton_default_conner_radius">8dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="edtextsize">20dp</dimen><dimen name="fbutton_default_shadow_height">4dp</dimen><dimen name="fbutton_default_padding_left">10dp</dimen></file><file path="D:\work\study\AndroidProject\waibao\app\src\main\res\values\drawable.xml" qualifiers=""><drawable name="check_pressed">#fafafa</drawable><drawable name="layout_normal">#eeeeee</drawable><drawable name="clr_normal">#0099FF</drawable><drawable name="details_pressed">#00bfa5</drawable><drawable name="layout_pressed">#e3e4e6</drawable><drawable name="check_normal">#cfd8dc</drawable><drawable name="clr_pressed">#0000FF</drawable><drawable name="details_normal">#48CFAD</drawable></file><file path="D:\work\study\AndroidProject\waibao\app\src\main\res\values\strings.xml" qualifiers=""><string name="register">注册</string><string name="set_password1">请设置密码</string><string name="user_name">账号</string><string name="next">下一步</string><string name="user_pass">密码</string><string name="set_check_code">请输入验证码</string><string name="set_password2">请确认密码</string><string name="accomplish">完成</string><string name="action_settings">Settings</string><string name="app_name">rental</string><string name="new_user">新用户</string><string name="location_now">当前位置</string><string name="exitlogin">注销</string><string name="find_phone">电话号码</string><string name="forget_pass">忘记密码</string><string name="set_nickname">请设置昵称</string><string name="login">登录</string><string name="set_phone">请输入电话号码</string><string name="set_get_code">获取验证码</string><string name="find_title">重置密码</string></file><file path="D:\work\study\AndroidProject\waibao\app\src\main\res\values\styles.xml" qualifiers=""><style name="login_edit">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/hint</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style><style name="TransparentTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="ActionBarStyle.Transparent" parent="@android:Widget.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:displayOptions">homeAsUp|showHome|showTitle</item>
+        <item name="android:titleTextStyle">@style/ActionBarStyle.Transparent.TitleTextStyle</item>
+    </style><style name="MyActionBar" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@color/black</item>
+        <item name="android:backgroundStacked">@color/black</item>
+    </style><style name="top_title">
+        <item name="android:background">@color/top_green</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="ActionBarStyle.Transparent.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="popupwindow_textview">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+    </style><style name="CustomActionBarTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style></file></source><source path="D:\work\study\AndroidProject\waibao\app\build\generated\res\rs\debug"/><source path="D:\work\study\AndroidProject\waibao\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="D:\work\study\AndroidProject\waibao\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="border_overlay"/></declare-styleable><declare-styleable name="FloatLabeledEditText"><attr format="reference" name="fletTextAppearance"/><attr format="reference|dimension" name="fletPadding"/><attr format="reference|dimension" name="fletPaddingLeft"/><attr format="reference|dimension" name="fletPaddingTop"/><attr format="reference|dimension" name="fletPaddingRight"/><attr format="reference|dimension" name="fletPaddingBottom"/><attr format="reference|color" name="fletBackground"/></declare-styleable><declare-styleable name="FButton"><attr format="boolean" name="shadowEnabled"/><attr format="color" name="buttonColor"/><attr format="color" name="shadowColor"/><attr format="dimension" name="shadowHeight"/><attr format="dimension" name="cornerRadius"/></declare-styleable><declare-styleable name="WaveView"><attr format="color" name="above_wave_color"/><attr format="color" name="blow_wave_color"/><attr format="integer" name="progress"/><attr format="enum" name="wave_length">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr><attr format="enum" name="wave_height">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr><attr format="enum" name="wave_hz">
+            <enum name="fast" value="1"/>
+            <enum name="normal" value="2"/>
+            <enum name="slow" value="3"/>
+        </attr></declare-styleable><declare-styleable name="Themes"><attr format="reference" name="waveViewStyle"/></declare-styleable></configuration></mergedItems></merger>

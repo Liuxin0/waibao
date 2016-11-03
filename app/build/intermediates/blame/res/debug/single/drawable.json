@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_layout_item_selector.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\drawable\\popup_layout_item_selector.xml"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\homepagerents_text_selectsome_selector.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\drawable\\homepagerents_text_selectsome_selector.xml"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\homepage_toptext_selector.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\drawable\\homepage_toptext_selector.xml"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\homepage_text_selector.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\drawable\\homepage_text_selector.xml"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_item_selector.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\drawable\\layout_item_selector.xml"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button_selector.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\drawable\\login_button_selector.xml"
+    }
+]

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.example.rental"
+              xmlns:fbutton="http://schemas.android.com/apk/res/com.example.rental"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/light_grey"
+              android:padding="@dimen/home_padding">
+
+    <ImageView android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_marginTop="40dp"
+               android:id="@+id/userimage"
+               android:clickable="true"
+               android:src="@drawable/ic_launcher"
+               android:layout_gravity="center_horizontal"
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:orientation="horizontal">
+
+        <ThirdParityLibraries.floatlabelededittext.FloatLabeledEditText
+                android:background="@color/light_grey"
+                app:fletPadding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/login_zhanghao"
+                      style="@style/login_edit"
+                      android:hint="@string/user_name"/>
+        </ThirdParityLibraries.floatlabelededittext.FloatLabeledEditText>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <ThirdParityLibraries.floatlabelededittext.FloatLabeledEditText
+                android:background="@color/light_grey"
+                app:fletPadding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textPassword"
+                      android:id="@+id/login_password"
+                      style="@style/login_edit"
+                      android:hint="@string/user_pass"/>
+
+        </ThirdParityLibraries.floatlabelededittext.FloatLabeledEditText>
+
+    </LinearLayout>
+
+    <ThirdParityLibraries.FButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/login"
+            android:id="@+id/login_button"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            fbutton:shadowEnabled="true"
+    />
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/forget_pass"
+                  android:layout_alignParentBottom="true"
+                  android:layout_alignParentLeft="true"
+                  android:textSize="15sp"
+                  android:textColor="#4A4AFF"
+                  android:id="@+id/login_to_losspass"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:clickable="true"
+                  android:text="@string/new_user"
+                  android:layout_alignParentBottom="true"
+                  android:layout_alignParentRight="true"
+                  android:id="@+id/login_to_register"
+                  android:textSize="15sp"
+                  android:textColor="#4A4AFF"/>
+    </RelativeLayout>
+
+</LinearLayout>
