@@ -1,66 +1,66 @@
 [
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_main.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\login_main.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagerents_popup1.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagerents_popup1.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\friendmain_fragment.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\friendmain_fragment.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_register.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\login_register.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item2.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\findrents_item2.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_main.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\login_main.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item1.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findrents_item1.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_find.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\register_find.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagemain_fragment.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\homepagemain_fragment.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagerents_popup2.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagerents_popup2.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\map.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\friendmain_fragment.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\friendmain_fragment.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\discoverymain_fragment.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\discoverymain_fragment.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_find.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\register_find.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\minemain_fragment.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\minemain_fragment.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_fragment.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findrents_fragment.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagerents_popup1.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\homepagerents_popup1.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\discoverymain_fragment.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\discoverymain_fragment.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_login.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\login_login.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_login.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\login_login.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_register.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\login_register.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\minemain_fragment.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\minemain_fragment.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_fragment.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\findrents_fragment.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\map.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagerents_popup2.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\homepagerents_popup2.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagemain_fragment.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagemain_fragment.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findhouse_fragment.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\findhouse_fragment.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item2.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findrents_item2.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item1.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\layout\\findrents_item1.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findhouse_fragment.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findhouse_fragment.xml"
     }
 ]

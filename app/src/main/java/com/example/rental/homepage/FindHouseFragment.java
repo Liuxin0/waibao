@@ -1,5 +1,7 @@
 package com.example.rental.homepage;
 
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -7,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.example.rental.R;
+
+import java.io.File;
+import java.io.FileInputStream;
 
 /**
  * Created by caolu on 2016/10/20.
@@ -21,5 +26,6 @@ public class FindHouseFragment extends Fragment{
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
     }
 }
