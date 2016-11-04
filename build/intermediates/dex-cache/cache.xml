@@ -3,6 +3,24 @@
 
     <item
         is-multidex="false"
+        jar="E:\software\git\waibao\pinchimageviewexample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4ebf1c36aa7f86bb73226542aed8726377576ce7">
+        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\instant-run_17d4adb69f07fef96e1d6ba90a13cdb6fa027e53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\waibao\pinchimageviewexample\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4_90e028f26a0d132a42673f9bc5fdd40a8347c52c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\software\git\waibao\app\libs\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014.jar"
         jumboMode="true"
         optimize="true"
@@ -12,12 +30,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\software\git\waibao\pinchimageviewexample\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_594c05f36d738e5683563c1d885a0c38f3938f47.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\software\git\waibao\app\libs\nineoldandroids-2.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_9c20bd89eda83963f670fe1fdd922f6ecd3ced7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\caolu\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_869f2f7cbcb5214bcf8788255c781b4e16c333f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\waibao\pinchimageviewexample\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_85c5eff1d4feae2f7ec195b82c70971c7208ff60.jar" />
     </item>
     <item
         is-multidex="false"
@@ -43,8 +88,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6736d846ec8c575993fb5d5f6dfbbc4075e2d0fa">
+        sha1="6564afcbe107f543aed7689ef5202f1beaf6795f">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run_7a99ea41beefed9660be405e97c18da11106988a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\waibao\pinchimageviewexample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4108aea3af4b967f31621399e5f1a40ff0699a73">
+        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\instant-run-bootstrap_dcbace7a6fa4b054a484268dfab8164dd2cca2b6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,7 +107,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_982f68f0e1ef3978d473a0779eae3dbe22628c3d.jar" />
+        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_982f68f0e1ef3978d473a0779eae3dbe22628c3d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -70,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="1db59c615f216ebca9e09545fa8c22140583c123">
+        sha1="a02bbddf64c35a0bff6260b7e25ce673b52e62eb">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3f56dbb7c9844e16b3e79dfb38593fb670005861.jar" />
     </item>
     <item

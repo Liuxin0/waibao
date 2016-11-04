@@ -1,4 +1,4 @@
-package com.example.rental.util;
+package com.boycy815.pinchimageview;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -7,6 +7,7 @@ import android.graphics.Matrix;
 import android.graphics.PointF;
 import android.graphics.RectF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.widget.ImageView;
@@ -580,8 +581,11 @@ public class PinchImageView extends ImageView  {
      * @return 是否能执行手势相关计算
      */
     private boolean isReady() {
-        return getDrawable() != null && getDrawable().getIntrinsicWidth() > 0 && getDrawable().getIntrinsicHeight() > 0
+        boolean b =  getDrawable() != null && getDrawable().getIntrinsicWidth() > 0 && getDrawable().getIntrinsicHeight() > 0
                 && getWidth() > 0 && getHeight() > 0;
+        if(b)Log.i("boolean","yes");
+        else Log.i("boolean","no");
+        return b;
     }
 
 

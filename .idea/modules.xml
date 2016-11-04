@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinchimageview/pinchimageview.iml" filepath="$PROJECT_DIR$/pinchimageview/pinchimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinchimageviewexample/pinchimageviewexample.iml" filepath="$PROJECT_DIR$/pinchimageviewexample/pinchimageviewexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/waibao.iml" filepath="$PROJECT_DIR$/waibao.iml" />
     </modules>
   </component>

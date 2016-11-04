@@ -1881,9 +1881,51 @@
                     "startLine": 143,
                     "startColumn": 4,
                     "startOffset": 8291,
-                    "endLine": 150,
+                    "endLine": 145,
                     "endColumn": 12,
-                    "endOffset": 8682
+                    "endOffset": 8399
+                },
+                "from": {
+                    "file": "E:\\software\\git\\waibao\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 3229,
+                        "endLine": 70,
+                        "endColumn": 12,
+                        "endOffset": 3339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 8404,
+                    "endLine": 152,
+                    "endColumn": 12,
+                    "endOffset": 8785
+                },
+                "from": {
+                    "file": "E:\\software\\git\\waibao\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2836,
+                        "endLine": 67,
+                        "endColumn": 12,
+                        "endOffset": 3223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 8790,
+                    "endLine": 160,
+                    "endColumn": 12,
+                    "endOffset": 9181
                 },
                 "from": {
                     "file": "E:\\software\\git\\waibao\\app\\src\\main\\res\\values\\styles.xml",
@@ -1899,12 +1941,12 @@
             },
             {
                 "to": {
-                    "startLine": 151,
+                    "startLine": 161,
                     "startColumn": 4,
-                    "startOffset": 8687,
-                    "endLine": 159,
+                    "startOffset": 9186,
+                    "endLine": 169,
                     "endColumn": 12,
-                    "endOffset": 9124
+                    "endOffset": 9623
                 },
                 "from": {
                     "file": "E:\\software\\git\\waibao\\app\\src\\main\\res\\values\\styles.xml",

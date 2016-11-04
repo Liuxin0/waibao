@@ -141,6 +141,16 @@
         <item name="android:paddingBottom">6dp</item>
         <item name="android:textCursorDrawable">@null</item>
     </style>
+    <style name="noAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+    </style>
+    <style name="pic_view" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@style/noAnimation</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
     <style name="popupwindow_textview">
         <item name="android:gravity">center_vertical</item>
         <item name="android:layout_width">wrap_content</item>
