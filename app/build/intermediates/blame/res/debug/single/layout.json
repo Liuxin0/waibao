@@ -68,6 +68,10 @@
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\map.xml"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagemain_upmenu.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagemain_upmenu.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagemain_fragment.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagemain_fragment.xml"
     },

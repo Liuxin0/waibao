@@ -2,13 +2,20 @@ package com.example.rental.homepage;
 
 import android.app.Activity;
 import android.graphics.Color;
-import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.util.Log;
-import android.view.*;
-import android.widget.*;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
 import com.example.rental.R;
 
 import java.util.ArrayList;
@@ -65,7 +72,7 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                 RentsBean b = new RentsBean();
                 b.setType(1);
                 b.setName("xxxx");
-                b.setImageUrl("http://cms.fn.img-space.com/t_s950x634/g1/M00/06/51/Cg-4rFbT34qIJMntAAHM2HI3G_wAAP8ZwHDMOUAAczw239.jpg");
+                b.setImageUrl("http://cms.fn.img-space.com/t_s950x634/g1/M00/06/51/Cg-4rFbT35eIC6AWAAN9cEMMMQsAAP8ZwLLBvoAA32I562.jpg");
                 data.add(b);
             }
         }
@@ -73,6 +80,9 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
         mAdapter.notifyDataSetChanged();
     }
 
+    /**
+     * 下面两个按键
+     */
     private void bounsView() {
         occupationTextView = (TextView) getActivity().findViewById(R.id.homepagemain_fragment_occupation);
         hobbyTextView = (TextView) getActivity().findViewById(R.id.homepagemain_fragment_hobby);
@@ -145,6 +155,9 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
         }
     }
 
+    /**
+     * 下面两个按键的监听事件
+     */
     private void buttomTwoButtonClick() {
         TextView[] tvReset = new TextView[mmNum];
         tvReset[0] = (TextView) popuWindow1.findViewById(R.id.homepagerents_popup1_reset);

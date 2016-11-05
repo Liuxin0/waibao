@@ -1,4 +1,4 @@
-#Sat Nov 05 09:39:16 CST 2016
+#Sat Nov 05 13:13:56 CST 2016
 base.0=E\:\\software\\git\\waibao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=E\:\\software\\git\\waibao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

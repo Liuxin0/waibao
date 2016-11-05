@@ -1,6 +1,5 @@
 package com.example.rental.homepage;
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,7 +10,13 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.*;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.PopupWindow;
+import android.widget.RadioGroup;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import com.example.rental.Map;
 import com.example.rental.R;
 
@@ -29,6 +34,11 @@ public class HomepageMain extends Fragment{
     private RadioGroup group;
 
 
+    private ImageView upInfo;
+    private View popupView;
+    private PopupWindow mPopupWindow;
+
+
 
 
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -42,8 +52,39 @@ public class HomepageMain extends Fragment{
                 startActivity(intent);
             }
         });
+        upInfo = (ImageView) view.findViewById(R.id.homepagemain_upinfo);
+        initPopupWindow();
 
         return view;
+    }
+
+    private void initPopupWindow() {
+        popupView = getActivity().getLayoutInflater().inflate(R.layout.homepagemain_upmenu,null);
+        mPopupWindow = new PopupWindow(popupView, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, true);
+        mPopupWindow.setTouchable(true);
+        mPopupWindow.setOutsideTouchable(true);
+        mPopupWindow.setBackgroundDrawable(getResources().getDrawable(R.drawable.white));
+        upInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPopupWindow.showAsDropDown(v,0,0);
+            }
+        });
+
+        TextView tv1 = (TextView) popupView.findViewById(R.id.homepagemain_upmenu_tv1);
+        TextView tv2 = (TextView) popupView.findViewById(R.id.homepagemain_upmenu_tv2);
+        tv1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPopupWindow.dismiss();
+            }
+        });
+        tv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPopupWindow.dismiss();
+            }
+        });
     }
 
     @Override
