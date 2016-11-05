@@ -6,6 +6,15 @@ package com.example.rental.homepage;
 public class RentsBean {
     private String Name;
     private Integer Type;
+    private String ImageUrl;
+
+    public String getImageUrl() {
+        return ImageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        ImageUrl = imageUrl;
+    }
 
     public Integer getType() {
         return Type;

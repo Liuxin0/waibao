@@ -581,11 +581,8 @@ public class PinchImageView extends ImageView  {
      * @return 是否能执行手势相关计算
      */
     private boolean isReady() {
-        boolean b =  getDrawable() != null && getDrawable().getIntrinsicWidth() > 0 && getDrawable().getIntrinsicHeight() > 0
+        return getDrawable() != null && getDrawable().getIntrinsicWidth() > 0 && getDrawable().getIntrinsicHeight() > 0
                 && getWidth() > 0 && getHeight() > 0;
-        if(b)Log.i("boolean","yes");
-        else Log.i("boolean","no");
-        return b;
     }
 
 

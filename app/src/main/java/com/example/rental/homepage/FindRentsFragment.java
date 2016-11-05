@@ -56,15 +56,16 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
         for (int i =0;i<10;i++){
             if (i%2==0){
                 RentsBean b = new RentsBean();
-                b.setType(1);
+                b.setType(0);
                 b.setName("shxy");
                 data.add(b);
             }
             else
             {
                 RentsBean b = new RentsBean();
-                b.setType(0);
+                b.setType(1);
                 b.setName("xxxx");
+                b.setImageUrl("http://cms.fn.img-space.com/t_s950x634/g1/M00/06/51/Cg-4rFbT34qIJMntAAHM2HI3G_wAAP8ZwHDMOUAAczw239.jpg");
                 data.add(b);
             }
         }
