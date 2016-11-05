@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:2:1-70:12
+ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:2:1-73:12
 	package
 		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from E:\software\git\waibao\app\src\main\AndroidManifest.xml
@@ -61,7 +61,7 @@ ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:31:5-76
 	android:name
 		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:31:22-73
 application
-ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:40:5-69:19
+ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:40:5-72:19
 MERGED from [com.android.support:support-v4:24.0.0] E:\software\git\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:42:9-41
@@ -97,17 +97,21 @@ activity#com.example.rental.Map
 ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:56:9-58:20
 	android:name
 		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:56:19-38
+activity#com.example.rental.homepage.UpRentActivity
+ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:60:9-61:15
+	android:name
+		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:60:19-58
 activity#com.example.rental.Login.LoginActivity
-ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:60:9-62:20
+ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:63:9-65:20
 	android:name
-		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:60:19-54
+		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:63:19-54
 activity#com.example.rental.PImageView.zoomtransition.PicViewActivity
-ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:64:9-66:47
+ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:67:9-69:47
 	android:theme
-		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:66:13-44
+		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:69:13-44
 	android:name
-		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:65:13-70
+		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:68:13-70
 activity#com.example.rental.PImageView.zoomtransition.ThumbViewActivity
-ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:67:9-81
+ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:70:9-81
 	android:name
-		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:67:19-78
+		ADDED from E:\software\git\waibao\app\src\main\AndroidManifest.xml:70:19-78

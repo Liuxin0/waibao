@@ -77,6 +77,7 @@ public class HomepageMain extends Fragment{
             @Override
             public void onClick(View v) {
                 mPopupWindow.dismiss();
+                startActivity(new Intent(getActivity(),UpRentActivity.class));
             }
         });
         tv2.setOnClickListener(new View.OnClickListener() {

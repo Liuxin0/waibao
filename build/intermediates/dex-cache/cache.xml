@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\software\git\waibao\pinchimageviewexample\libs\universal-image-loader-1.9.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
-        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4_90e028f26a0d132a42673f9bc5fdd40a8347c52c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\software\git\waibao\app\libs\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014.jar"
         jumboMode="true"
         optimize="true"
@@ -48,30 +39,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\caolu\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_869f2f7cbcb5214bcf8788255c781b4e16c333f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\software\git\waibao\pinchimageviewexample\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
         <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_85c5eff1d4feae2f7ec195b82c70971c7208ff60.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\software\git\waibao\app\libs\gson.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\gson_14794746c93bfc5200d47e60ab17c48ed5bff18f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -88,17 +61,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6564afcbe107f543aed7689ef5202f1beaf6795f">
+        sha1="bfd59f23a3e82dc8f6e3bd042158b1a1a72f9cee">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run_7a99ea41beefed9660be405e97c18da11106988a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\software\git\waibao\pinchimageviewexample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4108aea3af4b967f31621399e5f1a40ff0699a73">
-        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\instant-run-bootstrap_dcbace7a6fa4b054a484268dfab8164dd2cca2b6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,21 +84,57 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\software\git\waibao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a02bbddf64c35a0bff6260b7e25ce673b52e62eb">
-        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3f56dbb7c9844e16b3e79dfb38593fb670005861.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\caolu\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_6aaef1dc7bd3b060e0effd990c8512909c3b8a0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\waibao\pinchimageviewexample\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4_90e028f26a0d132a42673f9bc5fdd40a8347c52c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\caolu\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_869f2f7cbcb5214bcf8788255c781b4e16c333f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\waibao\app\libs\gson.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\gson_14794746c93bfc5200d47e60ab17c48ed5bff18f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\waibao\pinchimageviewexample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4108aea3af4b967f31621399e5f1a40ff0699a73">
+        <dex dex="E:\software\git\waibao\pinchimageviewexample\build\intermediates\pre-dexed\debug\instant-run-bootstrap_dcbace7a6fa4b054a484268dfab8164dd2cca2b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\waibao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3b3aae05e362627eab88e8b5576850a3a4e5092e">
+        <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3f56dbb7c9844e16b3e79dfb38593fb670005861.jar" />
     </item>
     <item
         is-multidex="false"

@@ -58,6 +58,7 @@
         </activity>
         <activity android:name="com.example.rental.Map" >
         </activity>
+        <activity android:name="com.example.rental.homepage.UpRentActivity" />
         <activity android:name="com.example.rental.Login.LoginActivity" >
         </activity>
         <activity

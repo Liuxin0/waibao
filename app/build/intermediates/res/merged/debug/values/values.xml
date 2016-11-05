@@ -47,6 +47,8 @@
     <color name="transparent">#0000</color>
     <color name="weibo_listtab_off">#8d8d8d</color>
     <color name="white">#ffffff</color>
+    <color name="white_alpha_50">#50ffffff</color>
+    <color name="white_alpha_77">#77ffffff</color>
     <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="border_overlay"/></declare-styleable>
     <declare-styleable name="FButton"><attr format="boolean" name="shadowEnabled"/><attr format="color" name="buttonColor"/><attr format="color" name="shadowColor"/><attr format="dimension" name="shadowHeight"/><attr format="dimension" name="cornerRadius"/></declare-styleable>
     <declare-styleable name="FloatLabeledEditText"><attr format="reference" name="fletTextAppearance"/><attr format="reference|dimension" name="fletPadding"/><attr format="reference|dimension" name="fletPaddingLeft"/><attr format="reference|dimension" name="fletPaddingTop"/><attr format="reference|dimension" name="fletPaddingRight"/><attr format="reference|dimension" name="fletPaddingBottom"/><attr format="reference|color" name="fletBackground"/></declare-styleable>
@@ -158,6 +160,14 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">14sp</item>
         <item name="android:padding">10dp</item>
+    </style>
+    <style name="shxy_top_title">
+        <item name="android:background">@color/title_blue</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
     </style>
     <style name="top_title">
         <item name="android:background">@color/top_green</item>

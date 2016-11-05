@@ -2,6 +2,8 @@
 <resources>
 
     <color name="transparent">#0000</color>
+    <color name="white_alpha_50">#50ffffff</color>
+    <color name="white_alpha_77">#77ffffff</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
     <color name="hint">#616161</color>

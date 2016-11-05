@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\uprent_activity.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\uprent_activity.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagerents_popup1.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagerents_popup1.xml"
     },
@@ -64,12 +68,12 @@
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\activity_pager.xml"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map.xml",
-        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\map.xml"
-    },
-    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagemain_upmenu.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagemain_upmenu.xml"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\map.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagemain_fragment.xml",

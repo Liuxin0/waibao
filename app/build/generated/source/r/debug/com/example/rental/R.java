@@ -242,6 +242,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int transparent=0x7f04002c;
         public static final int weibo_listtab_off=0x7f04002d;
         public static final int white=0x7f04002e;
+        public static final int white_alpha_50=0x7f04002f;
+        public static final int white_alpha_77=0x7f040030;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f050000;
@@ -262,25 +264,26 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int top_height=0x7f05000f;
     }
     public static final class drawable {
-        public static final int check_normal=0x7f02000b;
-        public static final int check_pressed=0x7f02000c;
-        public static final int checkok=0x7f020000;
-        public static final int clr_normal=0x7f02000d;
-        public static final int clr_pressed=0x7f02000e;
-        public static final int details_normal=0x7f02000f;
-        public static final int details_pressed=0x7f020010;
-        public static final int homepage_list=0x7f020001;
-        public static final int homepage_text_selector=0x7f020002;
-        public static final int homepage_toptext_selector=0x7f020003;
-        public static final int homepagerents_text_selectsome_selector=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int layout_item_selector=0x7f020006;
-        public static final int layout_normal=0x7f020011;
-        public static final int layout_pressed=0x7f020012;
-        public static final int login_button_selector=0x7f020007;
-        public static final int popup_layout_item_selector=0x7f020008;
-        public static final int title=0x7f020009;
-        public static final int white=0x7f02000a;
+        public static final int camera=0x7f020000;
+        public static final int check_normal=0x7f02000c;
+        public static final int check_pressed=0x7f02000d;
+        public static final int checkok=0x7f020001;
+        public static final int clr_normal=0x7f02000e;
+        public static final int clr_pressed=0x7f02000f;
+        public static final int details_normal=0x7f020010;
+        public static final int details_pressed=0x7f020011;
+        public static final int homepage_list=0x7f020002;
+        public static final int homepage_text_selector=0x7f020003;
+        public static final int homepage_toptext_selector=0x7f020004;
+        public static final int homepagerents_text_selectsome_selector=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int layout_item_selector=0x7f020007;
+        public static final int layout_normal=0x7f020012;
+        public static final int layout_pressed=0x7f020013;
+        public static final int login_button_selector=0x7f020008;
+        public static final int popup_layout_item_selector=0x7f020009;
+        public static final int title=0x7f02000a;
+        public static final int white=0x7f02000b;
     }
     public static final class id {
         public static final int background=0x7f09000c;
@@ -362,6 +365,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int root=0x7f09000d;
         public static final int slow=0x7f090005;
         public static final int tomap=0x7f090016;
+        public static final int uprent_cancle=0x7f090051;
+        public static final int uprent_doup=0x7f090052;
+        public static final int uprent_img=0x7f090054;
+        public static final int uprent_info=0x7f090053;
         public static final int userimage=0x7f090035;
         public static final int view_github=0x7f09000a;
     }
@@ -391,6 +398,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int map=0x7f030013;
         public static final int minemain_fragment=0x7f030014;
         public static final int register_find=0x7f030015;
+        public static final int uprent_activity=0x7f030016;
     }
     public static final class string {
         public static final int accomplish=0x7f070000;
@@ -424,7 +432,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int noAnimation=0x7f080006;
         public static final int pic_view=0x7f080007;
         public static final int popupwindow_textview=0x7f080008;
-        public static final int top_title=0x7f080009;
+        public static final int shxy_top_title=0x7f080009;
+        public static final int top_title=0x7f08000a;
     }
     public static final class styleable {
         /** Attributes that can be used with a CircleImageView.

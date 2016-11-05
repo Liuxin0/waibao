@@ -1,5 +1,17 @@
 [
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\homepage_list.png",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable-xhdpi\\homepage_list.png"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\camera.png",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable-xhdpi\\camera.png"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\white.png",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable-xhdpi\\white.png"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\checkok.png",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable-xhdpi\\checkok.png"
     },
