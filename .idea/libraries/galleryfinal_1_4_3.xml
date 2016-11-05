@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="galleryfinal-1.4.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.finalteam/galleryfinal/1.4.3/d43654e42c478d2163a0fd61983a492e3ebe9ae8/galleryfinal-1.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

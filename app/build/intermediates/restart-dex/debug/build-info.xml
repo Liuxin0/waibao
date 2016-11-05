@@ -5,33 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="514297560129835"
+    timestamp="518408613051138"
     token="8877248598822849787"
-    verifier="METHOD_DELETED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="174" />
+        duration="161" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="388" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="47" />
     <task
         name="verifier"
-        duration="4" />
+        duration="3" />
 
     <artifact
-        location="E:\software\git\waibao\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="E:\software\git\waibao\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="514297560129835"
-        verifier="METHOD_DELETED" >
+        timestamp="518298703137268"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\software\git\waibao\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="518408613051138"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="E:\software\git\waibao\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

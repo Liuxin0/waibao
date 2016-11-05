@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
+    compileSdkVersion 23
     buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "com.example.rental"
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -31,8 +31,10 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:support-v4:24.0.0'
+
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile project(':pinchimageview')
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'cn.finalteam:galleryfinal:1.4.3'
+    compile 'com.android.support:support-v4:23.1.1'
 }

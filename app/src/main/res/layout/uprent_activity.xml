@@ -59,7 +59,7 @@
         android:paddingBottom="40dp"
         android:textSize="17sp" />
 
-    <ImageView
+    <cn.finalteam.galleryfinal.widget.GFImageView
         android:id="@+id/uprent_img"
         android:layout_width="100dp"
         android:layout_height="100dp"
