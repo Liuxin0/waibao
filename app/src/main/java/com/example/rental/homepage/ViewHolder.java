@@ -24,7 +24,7 @@ public class ViewHolder {
     private final String[] TYPE_2 = new String[]{"学生", "教师", "程序员"};
     public View view;
 
-    private TextView nameTextView, addressTextView, label1TextView, label2TextView;
+    private TextView nameTextView, addressTextView, label1TextView, label2TextView,infoTextView;
     private ImageView img, photo;
     private RentInfoBean bean;
 
@@ -34,6 +34,7 @@ public class ViewHolder {
 
     public void bindView1(final RentInfoBean bean) {
         this.bean = bean;
+        infoTextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_info);
         nameTextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_name);
         addressTextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_address);
         label1TextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_label1);
@@ -41,23 +42,24 @@ public class ViewHolder {
         img = (ImageView) view.findViewById(R.id.homepagemain_fragment1_item1_img);
         photo = (ImageView) view.findViewById(R.id.homepagemain_fragment1_item1_photo);
 
+        infoTextView.setText(bean.getInformation());
         nameTextView.setText(bean.getNickName());
         addressTextView.setText(bean.getAddress());
         label1TextView.setText(TYPE_1[bean.getLabel1()]);
         label2TextView.setText(TYPE_1[bean.getLabel2()]);
         download_1();
-       // download_2();
+        download_2();
     }
 
     private void download_2() {
+        Log.i("ex",bean.getUserPhotoEx());
         Picasso.with(view.getContext())
-                .load(bean.getUserPhoto())
+                .load(bean.getUserPhotoEx())
                 .placeholder(R.drawable.ic_launcher)
                 .into(photo);
     }
 
     private void download_1(){
-        Log.i("有码",bean.getPicture());
         Picasso.with(view.getContext())
                 .load(bean.getPicture())
                 .resize(200, 200)
@@ -73,7 +75,6 @@ public class ViewHolder {
                                 Intent intent = new Intent(view.getContext(), PicViewActivity.class);
                                 Rect rect = new Rect();
                                 img.getGlobalVisibleRect(rect);
-                                Log.i("高清无码",bean.getPictureEx());
                                 intent.putExtra("url", bean.getPictureEx());
                                 /**
                                  * 必要参数

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 08 13:32:41 CST 2016
+#Tue Nov 08 13:58:35 CST 2016
 14.set=ANDROID_RESOURCE
 180.file=E\:\\software\\git\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\homepagerents_popup1.xml
 118.set=ANDROID_RESOURCE

@@ -18,6 +18,17 @@ public class RentInfoBean {
     private Integer Label3;
     private String PictureEx;
 
+    public String getUserPhotoEx() {
+        return UserPhotoEx;
+    }
+
+    public void setUserPhotoEx(String userPhotoEx) {
+        UserPhotoEx = userPhotoEx;
+    }
+
+    private String UserPhotoEx;
+
+
     public String getPictureEx() {
         return PictureEx;
     }
