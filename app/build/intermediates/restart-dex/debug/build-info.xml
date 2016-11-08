@@ -5,7 +5,7 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="771820422097299"
+    timestamp="773304402861004"
     token="8877248598822849787"
     verifier="COMPATIBLE" >
 
@@ -27,14 +27,14 @@
         type="RESOURCES" />
 
     <build
-        timestamp="771717690721623"
+        timestamp="773262895787182"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\software\git\waibao\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="771820422097299"
+        timestamp="773304402861004"
         verifier="COMPATIBLE" >
         <artifact
             location="E:\software\git\waibao\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"

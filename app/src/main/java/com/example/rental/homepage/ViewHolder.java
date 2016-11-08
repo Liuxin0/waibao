@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -24,9 +25,10 @@ public class ViewHolder {
     private final String[] TYPE_2 = new String[]{"学生", "教师", "程序员"};
     public View view;
 
-    private TextView nameTextView, addressTextView, label1TextView, label2TextView,infoTextView;
+    private TextView nameTextView, addressTextView, label1TextView, label2TextView, infoTextView;
     private ImageView img, photo;
     private RentInfoBean bean;
+
 
     public ViewHolder(View v) {
         view = v;
@@ -52,14 +54,14 @@ public class ViewHolder {
     }
 
     private void download_2() {
-        Log.i("ex",bean.getUserPhotoEx());
+        Log.i("ex", bean.getUserPhotoEx());
         Picasso.with(view.getContext())
                 .load(bean.getUserPhotoEx())
                 .placeholder(R.drawable.ic_launcher)
                 .into(photo);
     }
 
-    private void download_1(){
+    private void download_1() {
         Picasso.with(view.getContext())
                 .load(bean.getPicture())
                 .resize(200, 200)
@@ -83,6 +85,7 @@ public class ViewHolder {
                                 intent.putExtra("scaleType", img.getScaleType());
                                 intent.putExtra("width", bitmap.getWidth());
                                 intent.putExtra("height", bitmap.getHeight());
+
                                 view.getContext().startActivity(intent);
                             }
                         });
