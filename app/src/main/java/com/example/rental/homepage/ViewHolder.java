@@ -44,7 +44,11 @@ public class ViewHolder {
         img = (ImageView) view.findViewById(R.id.homepagemain_fragment1_item1_img);
         photo = (ImageView) view.findViewById(R.id.homepagemain_fragment1_item1_photo);
 
-        infoTextView.setText(bean.getInformation());
+        String info = bean.getInformation();
+        if (info.length() > 40) {
+            info = info.substring(0, 40);
+        }
+        infoTextView.setText(info);
         nameTextView.setText(bean.getNickName());
         addressTextView.setText(bean.getAddress());
         label1TextView.setText(TYPE_1[bean.getLabel1()]);

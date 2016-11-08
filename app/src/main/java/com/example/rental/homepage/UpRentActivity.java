@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -19,11 +20,15 @@ import com.example.rental.model.UserModel;
 import com.example.rental.service.BaseService;
 import com.example.rental.service.Listener;
 import com.example.rental.service.PhotoService;
+import com.example.rental.util.BaseUtil;
 import com.example.rental.util.PicassoImageLoader;
 import com.google.gson.Gson;
 import com.loopj.android.http.RequestParams;
 
+import java.io.BufferedOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.List;
 
 import cn.finalteam.galleryfinal.BuildConfig;
@@ -45,6 +50,8 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
     private EditText info;
     private String imgFilePath;
     private static final String TargetURL = "http://183.175.12.181:8000/sendhezu";
+    private static final String Path = Environment.getExternalStorageDirectory().getPath() + "/photo.jpg";
+    private File photoFile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,18 +83,17 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
             case R.id.uprent_doup:
                 Log.i("onclick", "yes");
                 final String infomation = info.getText().toString();
-                Log.i("info",infomation);
+                Log.i("info", infomation);
 
                 if (imgFilePath != null) {
                     try {
                         RequestParams params = new RequestParams();
-                        File file = new File(imgFilePath);
-                        params.put("Picture", file);
+                        params.put("Picture", photoFile);
                         params.put("Information", infomation);
                         params.put("UserPhone", "15248073068");
                         params.put("SecretKey", "abdefeacd7a345860276994e6bffc805");
-                        params.put("Number",10);
-                        params.put("Address","呼和浩特");
+                        params.put("Number", 10);
+                        params.put("Address", "呼和浩特");
                         doup.setOnClickListener(null);
                         BaseService.post(TargetURL, params, new Listener() {
                             @Override
@@ -116,8 +122,8 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                         doup.setOnClickListener(UpRentActivity.this);
                     }
 
-                }else{
-                    Toast.makeText(getApplicationContext(),"请选择图片",Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(getApplicationContext(), "请选择图片", Toast.LENGTH_SHORT).show();
                 }
                 break;
             case R.id.uprent_img:
@@ -130,7 +136,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
     private void selectImage() {
         //设置主题
         //ThemeConfig.CYAN
-        ThemeConfig theme = new ThemeConfig.Builder()
+        final ThemeConfig theme = new ThemeConfig.Builder()
                 .build();
         //配置功能
         FunctionConfig functionConfig = new FunctionConfig.Builder()
@@ -157,6 +163,24 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                  * 准备上传图片  File file;
                  */
                 imgFilePath = resultList.get(0).getPhotoPath();
+                double size = new File(imgFilePath).length();
+                boolean isZip = false;
+                int yasuobi = 1;
+                Log.i("前",size+"");
+                if (size>1500000){
+                    yasuobi = 8;
+                    isZip = true;
+                }else if (size>1000000){
+                    yasuobi = 4;
+                    isZip = true;
+                }
+                if (isZip) {
+                    Bitmap b = BaseUtil.getImage(imgFilePath, yasuobi);
+                    photoFile = BaseUtil.getBitmapFile(b, Path);
+                }else{
+                    photoFile = new File(imgFilePath);
+                }
+                Log.i("后",""+photoFile.length());
                 /**
                  * 后面三个参数  加载失败图片，长宽值。
                  */
