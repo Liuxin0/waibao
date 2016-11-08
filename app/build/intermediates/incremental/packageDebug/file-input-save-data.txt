@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 08 16:23:29 CST 2016
+#Tue Nov 08 16:50:30 CST 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=E\:\\software\\git\\waibao\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar\\assets\\zoomin_pressed2d.png
