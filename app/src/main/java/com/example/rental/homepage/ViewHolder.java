@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.example.rental.PImageView.zoomtransition.PicViewActivity;
 import com.example.rental.R;
+import com.example.rental.model.RentInfoBean;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 
@@ -18,36 +19,53 @@ import com.squareup.picasso.Target;
  * Created by caolu on 2016/11/1.
  */
 public class ViewHolder {
+
+    private final String[] TYPE_1 = new String[]{"学生", "教师", "程序员"};
+    private final String[] TYPE_2 = new String[]{"学生", "教师", "程序员"};
     public View view;
 
-    private TextView nameTextView;
-    private ImageView img;
+    private TextView nameTextView, addressTextView, label1TextView, label2TextView;
+    private ImageView img, photo;
+    private RentInfoBean bean;
 
     public ViewHolder(View v) {
         view = v;
     }
 
-    public void bindView1(RentsBean bean) {
-        nameTextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_name1);
-        nameTextView.setText(bean.getName());
+    public void bindView1(final RentInfoBean bean) {
+        this.bean = bean;
+        nameTextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_name);
+        addressTextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_address);
+        label1TextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_label1);
+        label2TextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_label2);
+        img = (ImageView) view.findViewById(R.id.homepagemain_fragment1_item1_img);
+        photo = (ImageView) view.findViewById(R.id.homepagemain_fragment1_item1_photo);
+
+        nameTextView.setText(bean.getNickName());
+        addressTextView.setText(bean.getAddress());
+        label1TextView.setText(TYPE_1[bean.getLabel1()]);
+        label2TextView.setText(TYPE_1[bean.getLabel2()]);
+        download_1();
+       // download_2();
     }
 
-    public void bindView2(final RentsBean bean) {
-        nameTextView = (TextView) view.findViewById(R.id.homepagemain_fragment1_item1_name2);
-        nameTextView.setText(bean.getName());
-        img = (ImageView) view.findViewById(R.id.homepagemain_fragment1_item1_img2);
-        //img.setImageResource(R.drawable.ic_launcher);
-        Log.i("in","yes");
-//        Log.i("url",bean.getImageUrl());
+    private void download_2() {
         Picasso.with(view.getContext())
-                .load(bean.getImageUrl())
+                .load(bean.getUserPhoto())
+                .placeholder(R.drawable.ic_launcher)
+                .into(photo);
+    }
+
+    private void download_1(){
+        Log.i("有码",bean.getPicture());
+        Picasso.with(view.getContext())
+                .load(bean.getPicture())
                 .resize(200, 200)
                 .centerCrop()
                 .placeholder(R.drawable.ic_launcher)
                 .into(new Target() {
                     @Override
                     public void onBitmapLoaded(final Bitmap bitmap, Picasso.LoadedFrom from) {
-                        Log.i("url",bean.getImageUrl());
                         img.setImageBitmap(bitmap);
                         img.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -55,10 +73,8 @@ public class ViewHolder {
                                 Intent intent = new Intent(view.getContext(), PicViewActivity.class);
                                 Rect rect = new Rect();
                                 img.getGlobalVisibleRect(rect);
-                                /**
-                                 * 重新下载高质量图片
-                                 */
-                                intent.putExtra("url", bean.getImageUrl());
+                                Log.i("高清无码",bean.getPictureEx());
+                                intent.putExtra("url", bean.getPictureEx());
                                 /**
                                  * 必要参数
                                  */
@@ -82,5 +98,4 @@ public class ViewHolder {
                     }
                 });
     }
-
 }

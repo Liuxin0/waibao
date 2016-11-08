@@ -152,10 +152,6 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item1.xml",
-        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findrents_item1.xml"
-    },
-    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -192,6 +188,10 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\cn.finalteam\\galleryfinal\\1.4.3\\res\\layout\\gf_adapter_preview_viewpgaer_item.xml"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findrents_item.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\map.xml"
     },
@@ -202,10 +202,6 @@
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item2.xml",
-        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findrents_item2.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",

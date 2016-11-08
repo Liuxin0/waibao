@@ -27,17 +27,7 @@ public class BaseService {
             @Override
             public void onFailure(int statusCode, Header[] headers,
                                   byte[] responseBody, Throwable error) {
-                if (responseBody ==null){
-                    listener.onFailure("网络错误");
-                }else{
-                    BaseModel model = new Gson().fromJson(new String(responseBody), BaseModel.class);
-                    if (model == null){
-                        listener.onFailure("网络错误");
-                    }else
-                    {
-                        listener.onFailure(model.getMsg());
-                    }
-                }
+                listener.onFailure("网络错误");
             }
 
 

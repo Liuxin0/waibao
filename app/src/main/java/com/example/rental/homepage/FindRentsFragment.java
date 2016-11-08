@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,8 +16,13 @@ import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.rental.R;
+import com.example.rental.model.RentInfoModel;
+import com.example.rental.service.Listener;
+import com.example.rental.service.RentInfoService;
+import com.loopj.android.http.RequestParams;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +43,7 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
 
     private ListView mListView;
     private RentsAdapter mAdapter;
+    private static final String mUrl = "http://183.175.12.181:8000/hezuinfors";
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -53,31 +60,43 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
         buttomTwoButtonClick();
         bounsView();
         initListView();
+        downloadInfo();
+    }
+
+    private void downloadInfo() {
+        Log.i("1",",");
+        RequestParams param = new RequestParams();
+        try {
+            Log.i("1",",");
+            RentInfoService.post(mUrl, param, new Listener() {
+                @Override
+                public void onSuccess(Object object) {
+                    RentInfoModel model = (RentInfoModel)object;
+                    if (model == null){
+                        Toast.makeText(getContext(),"错误",Toast.LENGTH_SHORT).show();
+                    }else{
+                        if (model.getState() == 1){
+                            mAdapter.setData(model.getHezudata());
+                            mListView.setAdapter(mAdapter);
+                        }else{
+                            Toast.makeText(getContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }
+
+                @Override
+                public void onFailure(String msg) {
+                    Toast.makeText(getContext(),"网络错误",Toast.LENGTH_SHORT).show();
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void initListView() {
         mListView = (ListView)getActivity().findViewById(R.id.homepagemain_fragment1_listview);
         mAdapter = new RentsAdapter(getActivity());
-        mListView.setAdapter(mAdapter);
-        List<RentsBean> data = new ArrayList<>();
-        for (int i =0;i<10;i++){
-            if (i%2==0){
-                RentsBean b = new RentsBean();
-                b.setType(0);
-                b.setName("shxy");
-                data.add(b);
-            }
-            else
-            {
-                RentsBean b = new RentsBean();
-                b.setType(1);
-                b.setName("xxxx");
-                b.setImageUrl("http://cms.fn.img-space.com/t_s950x634/g1/M00/06/51/Cg-4rFbT35eIC6AWAAN9cEMMMQsAAP8ZwLLBvoAA32I562.jpg");
-                data.add(b);
-            }
-        }
-        mAdapter.setData(data);
-        mAdapter.notifyDataSetChanged();
     }
 
     /**
