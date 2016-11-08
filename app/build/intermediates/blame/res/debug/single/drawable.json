@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
@@ -92,16 +96,20 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\homepage_text_selector.xml",
-        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable\\homepage_text_selector.xml"
-    },
-    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button_selector.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable\\login_button_selector.xml"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\homepage_text_selector.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable\\homepage_text_selector.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",

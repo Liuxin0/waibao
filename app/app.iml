@@ -146,6 +146,7 @@
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
     <orderEntry type="library" exported="" name="android-async-http-1.4.8" level="project" />
     <orderEntry type="library" exported="" name="gson" level="project" />
+    <orderEntry type="module" module-name="PullToRefresh" exported="" />
     <orderEntry type="module" module-name="pinchimageview" exported="" />
     <orderEntry type="library" exported="" name="org.apache.http.legacy-android-23" level="project" />
   </component>

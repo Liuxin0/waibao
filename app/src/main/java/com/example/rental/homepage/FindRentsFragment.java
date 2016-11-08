@@ -19,9 +19,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.rental.R;
+import com.example.rental.model.RentInfoBean;
 import com.example.rental.model.RentInfoModel;
 import com.example.rental.service.Listener;
 import com.example.rental.service.RentInfoService;
+import com.example.rental.util.BaseUtil;
+import com.handmark.pulltorefresh.library.PullToRefreshBase;
+import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.loopj.android.http.RequestParams;
 
 import java.util.ArrayList;
@@ -41,9 +45,11 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
     private int mmNum = 2;                              //大分类按键数量
 
 
-    private ListView mListView;
+    private PullToRefreshListView mListView;
     private RentsAdapter mAdapter;
     private static final String mUrl = "http://183.175.12.181:8000/hezuinfors";
+    private int page = 1;          //上拉加载页面
+    private List<RentInfoBean> mData;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -60,33 +66,43 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
         buttomTwoButtonClick();
         bounsView();
         initListView();
-        downloadInfo();
+        downloadInfo(true,0);
     }
 
-    private void downloadInfo() {
-        Log.i("1",",");
+    private void downloadInfo(final boolean first, final int mode) {
         RequestParams param = new RequestParams();
+        param.put("page",page);
         try {
-            Log.i("1",",");
-            RentInfoService.post(mUrl, param, new Listener() {
+            RentInfoService.get(mUrl, param, new Listener() {
                 @Override
                 public void onSuccess(Object object) {
                     RentInfoModel model = (RentInfoModel)object;
+                    mData = model.getHezudata();
                     if (model == null){
                         Toast.makeText(getContext(),"错误",Toast.LENGTH_SHORT).show();
                     }else{
                         if (model.getState() == 1){
-                            mAdapter.setData(model.getHezudata());
-                            mListView.setAdapter(mAdapter);
+                            if (mode == 1)
+                                mData.addAll(model.getHezudata());
+                            mAdapter.setData(mData);
+                            if (first)
+                                mListView.setAdapter(mAdapter);
+                            else{
+                                mAdapter.notifyDataSetChanged();
+                            }
                         }else{
                             Toast.makeText(getContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
                         }
                     }
+                    mListView.onRefreshComplete();
                 }
 
                 @Override
                 public void onFailure(String msg) {
                     Toast.makeText(getContext(),"网络错误",Toast.LENGTH_SHORT).show();
+                    mListView.onRefreshComplete();
+                    if (mode == 1)
+                        page--;
                 }
             });
         } catch (Exception e) {
@@ -95,7 +111,28 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
     }
 
     private void initListView() {
-        mListView = (ListView)getActivity().findViewById(R.id.homepagemain_fragment1_listview);
+        mListView = (PullToRefreshListView)getActivity().findViewById(R.id.homepagemain_fragment1_listview);
+        mListView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
+            @Override
+            public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
+                if (!BaseUtil.isNetworkConnected(getActivity())) {
+                    Toast.makeText(getActivity(), "网络错误", Toast.LENGTH_SHORT).show();
+                    mListView.onRefreshComplete();
+                }
+                page = 1;
+                downloadInfo(false,0);
+            }
+
+            @Override
+            public void onPullUpToRefresh(PullToRefreshBase<ListView> refreshView) {
+                if (!BaseUtil.isNetworkConnected(getActivity())) {
+                    Toast.makeText(getActivity(), "网络错误", Toast.LENGTH_SHORT).show();
+                    mListView.onRefreshComplete();
+                }
+                page++;
+                downloadInfo(false,1);
+            }
+        });
         mAdapter = new RentsAdapter(getActivity());
     }
 

@@ -4,12 +4,12 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gf_adapter_folder_list_item.xml",
@@ -56,6 +56,10 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
@@ -84,12 +88,12 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\uprent_activity.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\uprent_activity.xml"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gf_activity_photo_edit.xml",
@@ -176,24 +180,24 @@
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\login_login.xml"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pager.xml",
-        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\activity_pager.xml"
-    },
-    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pager.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\activity_pager.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gf_adapter_preview_viewpgaer_item.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\cn.finalteam\\galleryfinal\\1.4.3\\res\\layout\\gf_adapter_preview_viewpgaer_item.xml"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item.xml",
-        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findrents_item.xml"
-    },
-    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\map.xml"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_item.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\findrents_item.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -216,6 +220,10 @@
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\login_register.xml"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
@@ -224,8 +232,8 @@
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\login_main.xml"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pic_view.xml",
