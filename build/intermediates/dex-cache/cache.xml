@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="49b8435359c6d8463b5b8507b65adec77841e2a6">
+        sha1="a9037670d82219ec37d148a6d3fbb393220aff42">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run_7a99ea41beefed9660be405e97c18da11106988a.jar" />
     </item>
     <item
@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0a8a57878692359440fc7fd36f364f43ced98a74">
+        sha1="6e63885a87be902cec2b111cc73bc9e637ff6dcd">
         <dex dex="E:\software\git\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3f56dbb7c9844e16b3e79dfb38593fb670005861.jar" />
     </item>
 

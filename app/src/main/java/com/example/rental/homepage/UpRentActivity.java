@@ -44,7 +44,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
     private GFImageView img;
     private EditText info;
     private String imgFilePath;
-    private static final String TargetURL = "http://183.175.12.181:8000/revisephoto";
+    private static final String TargetURL = "http://183.175.12.181:8000/sendhezu";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,32 +74,34 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                 finish();
                 break;
             case R.id.uprent_doup:
-                Log.i("onclick","yes");
+                Log.i("onclick", "yes");
                 final String infomation = info.getText().toString();
+                Log.i("info",infomation);
 
-                if (imgFilePath!=null){
+                if (imgFilePath != null) {
                     try {
                         RequestParams params = new RequestParams();
                         File file = new File(imgFilePath);
-                        params.put("UserPhoto",file);
-                        params.put("UserPhone","15248073068");
-                        params.put("SecretKey","abdefeacd7a345860276994e6bffc805");
+                        params.put("Picture", file);
+                        params.put("Information", infomation);
+                        params.put("UserPhone", "15248073068");
+                        params.put("SecretKey", "abdefeacd7a345860276994e6bffc805");
+                        params.put("Number",10);
+                        params.put("Address","呼和浩特");
                         doup.setOnClickListener(null);
-                        BaseService.post(TargetURL,params, new Listener() {
+                        BaseService.post(TargetURL, params, new Listener() {
                             @Override
                             public void onSuccess(Object object) {
-                                BaseModel model = (BaseModel)object;
-
-                                if (model!=null){
-                                    if(model.getState()==1){
-                                        upInfo(infomation);
-                                        Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
-                                    }else{
-                                        Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
+                                BaseModel model = (BaseModel) object;
+                                if (model != null) {
+                                    if (model.getState() == 1) {
+                                        Toast.makeText(getApplicationContext(), model.getMsg(), Toast.LENGTH_SHORT).show();
+                                        finish();
+                                    } else {
+                                        Toast.makeText(getApplicationContext(), model.getMsg(), Toast.LENGTH_SHORT).show();
                                     }
-                                }
-                                else{
-                                    Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
+                                } else {
+                                    Toast.makeText(getApplicationContext(), model.getMsg(), Toast.LENGTH_SHORT).show();
                                 }
                                 doup.setOnClickListener(UpRentActivity.this);
                             }
@@ -114,6 +116,8 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                         doup.setOnClickListener(UpRentActivity.this);
                     }
 
+                }else{
+                    Toast.makeText(getApplicationContext(),"请选择图片",Toast.LENGTH_SHORT).show();
                 }
                 break;
             case R.id.uprent_img:
@@ -121,6 +125,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                 break;
         }
     }
+
 
     private void selectImage() {
         //设置主题
@@ -155,7 +160,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                 /**
                  * 后面三个参数  加载失败图片，长宽值。
                  */
-                imageLoader.displayImage(UpRentActivity.this,resultList.get(0).getPhotoPath(),img,null,600,600);
+                imageLoader.displayImage(UpRentActivity.this, resultList.get(0).getPhotoPath(), img, null, 600, 600);
             }
 
             @Override
@@ -165,44 +170,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
         });
 
     }
-    private void upInfo(String infomation){
-        final String url = "";
-        RequestParams params = new RequestParams();
-        /**
-         * 变量名
-         */
-        params.put("",infomation);
-        params.put("UserPhone","15248073068");
-        params.put("SecretKey","abdefeacd7a345860276994e6bffc805");
-        try {
-            BaseService.post(url, params, new Listener() {
-                @Override
-                public void onSuccess(Object object) {
-                    BaseModel model = (BaseModel) object;
-                    if (model == null){
-                        Toast.makeText(getApplicationContext(),"网络错误",Toast.LENGTH_SHORT).show();
-                    }else
-                    {
-                        if (model.getState() == 1)
-                        {
-                            Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
-                        }
-                        else
-                        {
-                            Toast.makeText(getApplicationContext(),model.getState(),Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                }
 
-                @Override
-                public void onFailure(String msg) {
-
-                }
-            });
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
 
 }

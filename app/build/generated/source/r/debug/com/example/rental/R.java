@@ -2211,6 +2211,7 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f030041;
         public static final int support_simple_spinner_dropdown_item=0x7f030042;
         public static final int uprent_activity=0x7f030043;
+        public static final int uprentsdetail=0x7f030044;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f050000;
