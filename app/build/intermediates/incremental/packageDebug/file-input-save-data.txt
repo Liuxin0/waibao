@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 08 10:26:31 CST 2016
+#Tue Nov 08 10:35:07 CST 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=E\:\\software\\git\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\select_dialog_singlechoice_material.xml

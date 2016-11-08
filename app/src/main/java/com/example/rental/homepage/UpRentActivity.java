@@ -16,6 +16,7 @@ import android.widget.Toast;
 import com.example.rental.R;
 import com.example.rental.model.BaseModel;
 import com.example.rental.model.UserModel;
+import com.example.rental.service.BaseService;
 import com.example.rental.service.Listener;
 import com.example.rental.service.PhotoService;
 import com.example.rental.util.PicassoImageLoader;
@@ -74,7 +75,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.uprent_doup:
                 Log.i("onclick","yes");
-                String infomation = info.getText().toString();
+                final String infomation = info.getText().toString();
 
                 if (imgFilePath!=null){
                     try {
@@ -84,13 +85,16 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                         params.put("UserPhone","15248073068");
                         params.put("SecretKey","abdefeacd7a345860276994e6bffc805");
                         doup.setOnClickListener(null);
-                        PhotoService.uploadFile( TargetURL,params, new Listener() {
+                        BaseService.post(TargetURL,params, new Listener() {
                             @Override
                             public void onSuccess(Object object) {
                                 BaseModel model = (BaseModel)object;
 
                                 if (model!=null){
                                     if(model.getState()==1){
+                                        upInfo(infomation);
+                                        Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
+                                    }else{
                                         Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
                                     }
                                 }
@@ -160,6 +164,44 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
             }
         });
 
+    }
+    private void upInfo(String infomation){
+        final String url = "";
+        RequestParams params = new RequestParams();
+        /**
+         * 变量名
+         */
+        params.put("",infomation);
+        params.put("UserPhone","15248073068");
+        params.put("SecretKey","abdefeacd7a345860276994e6bffc805");
+        try {
+            BaseService.post(url, params, new Listener() {
+                @Override
+                public void onSuccess(Object object) {
+                    BaseModel model = (BaseModel) object;
+                    if (model == null){
+                        Toast.makeText(getApplicationContext(),"网络错误",Toast.LENGTH_SHORT).show();
+                    }else
+                    {
+                        if (model.getState() == 1)
+                        {
+                            Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            Toast.makeText(getApplicationContext(),model.getState(),Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }
+
+                @Override
+                public void onFailure(String msg) {
+
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
