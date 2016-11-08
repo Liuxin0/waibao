@@ -11,9 +11,16 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.rental.R;
+import com.example.rental.model.BaseModel;
+import com.example.rental.model.UserModel;
+import com.example.rental.service.Listener;
+import com.example.rental.service.PhotoService;
 import com.example.rental.util.PicassoImageLoader;
+import com.google.gson.Gson;
+import com.loopj.android.http.RequestParams;
 
 import java.io.File;
 import java.util.List;
@@ -35,6 +42,8 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
     private TextView cancle, doup;
     private GFImageView img;
     private EditText info;
+    private String imgFilePath;
+    private static final String TargetURL = "http://183.175.12.181:8000/revisephoto";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +62,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
         doup = (TextView) findViewById(R.id.uprent_doup);
         info = (EditText) findViewById(R.id.uprent_info);
         img.setOnClickListener(this);
+        doup.setOnClickListener(this);
         cancle.setOnClickListener(this);
     }
 
@@ -63,6 +73,44 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                 finish();
                 break;
             case R.id.uprent_doup:
+                Log.i("onclick","yes");
+                String infomation = info.getText().toString();
+
+                if (imgFilePath!=null){
+                    try {
+                        RequestParams params = new RequestParams();
+                        File file = new File(imgFilePath);
+                        params.put("UserPhoto",file);
+                        params.put("UserPhone","15248073068");
+                        params.put("SecretKey","abdefeacd7a345860276994e6bffc805");
+                        doup.setOnClickListener(null);
+                        PhotoService.uploadFile( TargetURL,params, new Listener() {
+                            @Override
+                            public void onSuccess(Object object) {
+                                BaseModel model = (BaseModel)object;
+
+                                if (model!=null){
+                                    if(model.getState()==1){
+                                        Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+                                else{
+                                    Toast.makeText(getApplicationContext(),model.getMsg(),Toast.LENGTH_SHORT).show();
+                                }
+                                doup.setOnClickListener(UpRentActivity.this);
+                            }
+
+                            @Override
+                            public void onFailure(String msg) {
+                                doup.setOnClickListener(UpRentActivity.this);
+                            }
+                        });
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        doup.setOnClickListener(UpRentActivity.this);
+                    }
+
+                }
                 break;
             case R.id.uprent_img:
                 selectImage();
@@ -99,7 +147,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
                 /**
                  * 准备上传图片  File file;
                  */
-                File file = new File(resultList.get(0).getPhotoPath());
+                imgFilePath = resultList.get(0).getPhotoPath();
                 /**
                  * 后面三个参数  加载失败图片，长宽值。
                  */

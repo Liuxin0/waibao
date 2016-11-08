@@ -20,16 +20,20 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_photo.png",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable-xhdpi\\user_photo.png"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_gf_crop.png",
-        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\cn.finalteam\\galleryfinal\\1.4.3\\res\\drawable-xhdpi\\ic_gf_crop.png"
-    },
-    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_gf_crop.png",
+        "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\cn.finalteam\\galleryfinal\\1.4.3\\res\\drawable-xhdpi\\ic_gf_crop.png"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png",
