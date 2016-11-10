@@ -41,30 +41,20 @@
             android:textSize="15sp" />
 
         <TextView
+            android:id="@+id/homepagemain_fragment_num"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@drawable/homepage_text_selector"
+            android:background="@color/light_grey"
             android:gravity="center"
             android:padding="3dp"
-            android:text="职业"
+            android:text="人数"
             android:textColor="@color/black"
             android:textSize="15sp" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/homepage_text_selector"
-            android:gravity="center"
-            android:padding="3dp"
-            android:text="职业"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+
     </LinearLayout>
 
     <LinearLayout

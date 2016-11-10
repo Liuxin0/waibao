@@ -272,6 +272,10 @@
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagemain_upmenu.xml"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagerents_popup3.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagerents_popup3.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_huge.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\activity_huge.xml"
     },
