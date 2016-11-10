@@ -296,6 +296,7 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                     occupationTextView.setBackgroundResource(R.drawable.homepagerents_text_selectsome_selector);
                     occupationTextView.setTextColor(Color.RED);
                     exUrls[0] = addUrl(mmLinearLayouts[0],0);
+                    page = 0;
                     downloadInfo(mFirst,0);
                 } else {
                     occupationTextView.setBackgroundResource(R.color.light_grey);
@@ -318,7 +319,9 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                     /**
                      * 增加网络请求，刷新listview
                      */
+
                     exUrls[1] = addUrl(mmLinearLayouts[1],1);
+                    page = 0;
                     downloadInfo(mFirst,0);
                 } else {
                     hobbyTextView.setBackgroundResource(R.color.light_grey);
@@ -339,6 +342,7 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                     numTextView.setBackgroundResource(R.drawable.homepagerents_text_selectsome_selector);
                     numTextView.setTextColor(Color.RED);
                     exUrls[2] = addUrl(mmLinearLayouts[2],2);
+                    page = 0;
                     downloadInfo(mFirst,0);
                 } else {
                     numTextView.setBackgroundResource(R.color.light_grey);
