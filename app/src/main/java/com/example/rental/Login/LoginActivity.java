@@ -125,8 +125,6 @@ public class LoginActivity extends FragmentActivity implements
 
                     Intent intent = new Intent();
                     intent.setClass(LoginActivity.this, MyActivity.class);
-//                    if (RongIM.getInstance() != null)
-//                        RongIM.getInstance().startSubConversationList(getApplication(), Conversation.ConversationType.GROUP);
                     startActivity(intent);
                     finish();
                     Log.d("LoginActivity", "--onSuccess" + userid);

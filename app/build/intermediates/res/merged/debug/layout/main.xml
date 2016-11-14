@@ -20,7 +20,7 @@
 
     <fragment
             android:id="@+id/main_fragment3"
-            android:name="com.example.rental.friend.FriendMain"
+            android:name="io.rong.imkit.fragment.ConversationListFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="10"/>

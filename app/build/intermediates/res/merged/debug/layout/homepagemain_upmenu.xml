@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/homepagemain_upmenu_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_layout_item_selector"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:text="新建1"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/homepagemain_upmenu_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_layout_item_selector"
+        android:padding="10dp"
+        android:paddingRight="20dp"
+        android:text="新建2"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+</LinearLayout>
