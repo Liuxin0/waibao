@@ -96,6 +96,10 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tabbar_discover.png",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\drawable-xhdpi\\tabbar_discover.png"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
     },

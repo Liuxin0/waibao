@@ -18,7 +18,6 @@ public class RentsAdapter extends BaseAdapter {
 
     private List<RentInfoBean> data;
     private Context mContext;
-
     public RentsAdapter(Context context) {
         this.mContext = context;
     }

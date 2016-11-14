@@ -63,7 +63,6 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
         initExUrl();
         initPopupWindow();
         initLayout();

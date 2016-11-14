@@ -64,6 +64,7 @@
 
         <activity android:name=".homepage.UpRentActivity"
             />
+        <activity android:name=".discovery.UpDisActivity"/>
 
         <activity android:name=".Login.LoginActivity">
 
