@@ -69,9 +69,14 @@
 
             </intent-filter>
         </activity>
+        <activity android:name=".Map">
 
         <activity android:name=".Locate">
         </activity>
+
+        <activity android:name=".homepage.UpRentActivity"
+            />
+        <activity android:name=".discovery.UpDisActivity"/>
 
         <activity android:name=".Login.LoginActivity">
             <intent-filter>
@@ -79,7 +84,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homepage.UpRentActivity"/>
 
         <activity
             android:name=".PImageView.zoomtransition.PicViewActivity"

@@ -108,6 +108,10 @@
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dis_item.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\dis_item.xml"
+    },
+    {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homepagerents_popup2.xml",
         "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\homepagerents_popup2.xml"
     },
@@ -166,6 +170,10 @@
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gf_activity_photo_preview.xml",
         "source": "E:\\software\\git\\waibao\\app\\build\\intermediates\\exploded-aar\\cn.finalteam\\galleryfinal\\1.4.3\\res\\layout\\gf_activity_photo_preview.xml"
+    },
+    {
+        "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\updis_activity.xml",
+        "source": "E:\\software\\git\\waibao\\app\\src\\main\\res\\layout\\updis_activity.xml"
     },
     {
         "merged": "E:\\software\\git\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\findrents_fragment.xml",
