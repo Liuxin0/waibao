@@ -1,17 +1,13 @@
 package com.example.rental;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.KeyEvent;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
+
 import com.example.rental.view.TopLinearlayout;
 
 public class MyActivity extends FragmentActivity {
@@ -33,13 +29,12 @@ public class MyActivity extends FragmentActivity {
         setContentView(R.layout.main);
 
         initFragment();
-        mTopLinearlayout.setFragmentEvent(mFragmentManger,mTransaction,mFragments);
-
+        mTopLinearlayout.setFragmentEvent(mFragmentManger, mTransaction, mFragments);
 
     }
 
-    private void initFragment(){
-        mTopLinearlayout =  (TopLinearlayout) findViewById(R.id.myactivity_topview);
+    private void initFragment() {
+        mTopLinearlayout = (TopLinearlayout) findViewById(R.id.myactivity_topview);
         mFragmentManger = getSupportFragmentManager();
         mFragments = new Fragment[4];
 
@@ -51,6 +46,5 @@ public class MyActivity extends FragmentActivity {
         mTransaction.hide(mFragments[1]).hide(mFragments[2]).hide(mFragments[3])
                 .show(mFragments[0]).commit();
     }
-
 
 }

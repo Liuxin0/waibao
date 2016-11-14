@@ -15,9 +15,8 @@ import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.rental.Map;
+import com.example.rental.Locate;
 import com.example.rental.R;
 
 /**
@@ -48,7 +47,7 @@ public class HomepageMain extends Fragment{
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(getActivity(),Map.class);
+                intent.setClass(getActivity(),Locate.class);
                 startActivity(intent);
             }
         });
@@ -78,7 +77,7 @@ public class HomepageMain extends Fragment{
             public void onClick(View v) {
                 mPopupWindow.dismiss();
                 startActivity(new Intent(getActivity(),UpRentActivity.class));
-                //getActivity().finish();
+                getActivity().finish();
             }
         });
         tv2.setOnClickListener(new View.OnClickListener() {

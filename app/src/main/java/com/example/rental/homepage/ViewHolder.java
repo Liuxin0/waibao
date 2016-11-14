@@ -24,7 +24,6 @@ public class ViewHolder {
     private final String[] TYPE_1 = new String[]{"学生", "教师", "程序员"};
     private final String[] TYPE_2 = new String[]{"学生", "教师", "程序员"};
     public View view;
-
     private TextView nameTextView, addressTextView, label1TextView, label2TextView, infoTextView;
     private ImageView img, photo;
     private RentInfoBean bean;

@@ -1,16 +1,23 @@
 package com.example.rental.Login;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 import com.example.rental.MyActivity;
 import com.example.rental.R;
+import com.example.rental.App;
+
+import io.rong.imkit.RongIM;
+import io.rong.imlib.RongIMClient;
 
 /**
  * 登录注册界面
@@ -63,9 +70,10 @@ public class LoginActivity extends FragmentActivity implements
 
     @Override
     public void onFLoginTrue() {
-        Intent intent = new Intent();
-        intent.setClass(LoginActivity.this, MyActivity.class);
-        startActivity(intent);
+        SharedPreferences sharedPreferences = getSharedPreferences("user", Activity.MODE_PRIVATE);
+        String token = sharedPreferences.getString("token", null);
+        Log.i("MyActivity token", token);
+        connect(token);
     }
 
     @Override
@@ -84,5 +92,57 @@ public class LoginActivity extends FragmentActivity implements
     public void onFRegisterClick() {
         fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.remove(mfragment[1]).show(mfragment[0]).addToBackStack("ReBack").commit();
+    }
+
+    /**
+     * 建立与融云服务器的连接
+     *
+     * @param token
+     */
+    private void connect(String token) {
+        if (getApplicationInfo().packageName.equals(App.getCurProcessName(getApplicationContext()))) {
+
+            /**
+             * IMKit SDK调用第二步,建立与服务器的连接
+             */
+            RongIM.connect(token, new RongIMClient.ConnectCallback() {
+
+                /**
+                 * Token 错误，在线上环境下主要是因为 Token 已经过期，您需要向 App Server 重新请求一个新的 Token
+                 */
+                @Override
+                public void onTokenIncorrect() {
+
+                    Log.d("LoginActivity", "--onTokenIncorrect");
+                }
+
+                /**
+                 * 连接融云成功
+                 * @param userid 当前 token
+                 */
+                @Override
+                public void onSuccess(String userid) {
+
+                    Intent intent = new Intent();
+                    intent.setClass(LoginActivity.this, MyActivity.class);
+//                    if (RongIM.getInstance() != null)
+//                        RongIM.getInstance().startSubConversationList(getApplication(), Conversation.ConversationType.GROUP);
+                    startActivity(intent);
+                    finish();
+                    Log.d("LoginActivity", "--onSuccess" + userid);
+
+                }
+
+                /**
+                 * 连接融云失败
+                 * @param errorCode 错误码，可到官网 查看错误码对应的注释
+                 */
+                @Override
+                public void onError(RongIMClient.ErrorCode errorCode) {
+
+                    Log.d("LoginActivity", "--onError" + errorCode);
+                }
+            });
+        }
     }
 }

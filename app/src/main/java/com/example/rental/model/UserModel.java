@@ -16,8 +16,18 @@ public class UserModel {
     private String Label2;
     private String Label3;
     private String SecretKey;
+    private String token;
 
     public UserModel(){}
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
     public void setMsg(String msg) {
         this.msg = msg;
     }

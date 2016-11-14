@@ -1,2 +1,1 @@
-include ':app', ':pinchimageviewexample', ':pinchimageview'
-include ':PullToRefresh'
+include ':app', ':pinchimageviewexample', ':pinchimageview', ':Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable', ':PullToRefresh'

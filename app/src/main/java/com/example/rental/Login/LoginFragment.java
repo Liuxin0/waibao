@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.example.rental.R;
 import com.example.rental.model.UserModel;
 import com.example.rental.service.Listener;
@@ -26,7 +28,9 @@ public class LoginFragment extends Fragment {
 
     public interface FLoginBtnClick {
         void onFLoginTrue();
+
         void onToRegisterClick();
+
         void onToFindClick();
     }
 
@@ -36,6 +40,7 @@ public class LoginFragment extends Fragment {
     private TextView toRegister;
     private TextView toFind;
     private FLoginBtnClick fLoginBtnClick;
+    private String token;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -101,6 +106,8 @@ public class LoginFragment extends Fragment {
                 UserModel userModel = (UserModel) object;
                 Integer state = userModel.getState();
                 String SecretKey = userModel.getSecretKey();
+                token = userModel.getToken();
+                Log.i("LoginFragment", "token = " + token);
 //                Toast.makeText(getActivity(),state,Toast.LENGTH_SHORT).show();
                 if (state == 1) {
                     saveInfor(userphone, password, SecretKey);
@@ -120,13 +127,14 @@ public class LoginFragment extends Fragment {
             }
         });
     }
-    private void saveInfor(String phone, String password, String secret) {
+
+    private void saveInfor(String phone, String password, String SecretKey) {
         SharedPreferences preferences = getActivity().getApplicationContext().getSharedPreferences("user", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = preferences.edit();
         editor.putString("UserPhone", phone);
-        editor.putString("SecretKey", secret);
+        editor.putString("SecretKey", SecretKey);
         editor.putString("PassWord", password);
-//        editor.putString("Token", token);
+        editor.putString("token", token);
         if (!editor.commit()) {
             System.err.println("！！！写入失败！！！");
         }

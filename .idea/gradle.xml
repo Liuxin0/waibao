@@ -5,11 +5,12 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="E:\software\Android Studio\gradle\gradle-2.14.1" />
+        <option name="gradleHome" value="D:\work\study\AndroidStudio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/PullToRefresh" />
+            <option value="$PROJECT_DIR$/Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/pinchimageview" />
             <option value="$PROJECT_DIR$/pinchimageviewexample" />
