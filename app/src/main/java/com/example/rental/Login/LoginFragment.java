@@ -51,6 +51,7 @@ public class LoginFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         init();
+        autoLogin();
     }
 
 
@@ -62,7 +63,13 @@ public class LoginFragment extends Fragment {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                login();
+                String userphone = usernameEditText.getText().toString();
+                String password = passwordEditText.getText().toString();
+                if (userphone.length() <= 0 || password.length() <= 0) {
+                    Toast.makeText(getActivity(), "账号或密码不能为空", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                login(userphone, password);
             }
         });
 
@@ -87,13 +94,7 @@ public class LoginFragment extends Fragment {
         });
     }
 
-    private void login() {
-        final String userphone = usernameEditText.getText().toString();
-        final String password = passwordEditText.getText().toString();
-        if (userphone.length() <= 0 || password.length() <= 0) {
-            Toast.makeText(getActivity(), "账号或密码不能为空", Toast.LENGTH_SHORT).show();
-            return;
-        }
+    private void login(final String userphone, final String password) {
         String Md5_password = Md5.getMD5(password);
         RequestParams requestParams = new RequestParams();
         requestParams.add("UserPhone", userphone);
@@ -111,11 +112,12 @@ public class LoginFragment extends Fragment {
 //                Toast.makeText(getActivity(),state,Toast.LENGTH_SHORT).show();
                 if (state == 1) {
                     saveInfor(userphone, password, SecretKey);
-//                    new LoginAsyncTask().execute(userModel.getUserPhoto());
 
                     if (getActivity() instanceof FLoginBtnClick) {
                         ((FLoginBtnClick) getActivity()).onFLoginTrue();
                     }
+//                    new LoginAsyncTask().execute(userModel.getUserPhoto());
+
                 } else {
                     Toast.makeText(getActivity(), "账号或密码错误", Toast.LENGTH_SHORT).show();
                 }
@@ -140,4 +142,17 @@ public class LoginFragment extends Fragment {
         }
     }
 
+    private void autoLogin() {
+        SharedPreferences sharedPreferences = getActivity().getApplicationContext().getSharedPreferences("user", Context.MODE_PRIVATE);
+        String UserPhone = sharedPreferences.getString("UserPhone", null);
+
+        String SecretKey = sharedPreferences.getString("SecretKey", null);
+        String PassWord = sharedPreferences.getString("PassWord", null);
+        if (UserPhone == null || SecretKey == null || PassWord == null){
+            return;
+        }
+        if (getActivity() instanceof FLoginBtnClick) {
+            ((FLoginBtnClick) getActivity()).onFLoginTrue();
+        }
+    }
 }

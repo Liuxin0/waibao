@@ -12,12 +12,12 @@
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f4a3.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f4a3.png"
-    },
-    {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f62f.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f62f.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f4a3.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f4a3.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_voice_receive_play2.png",
@@ -88,12 +88,12 @@
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\rc_ic_voice_sent_play3.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f46b.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f46b.png"
-    },
-    {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_btn_pub_service_follow_hover.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\rc_btn_pub_service_follow_hover.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f46b.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f46b.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_def_coversation_portrait.png",
@@ -104,12 +104,12 @@
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f612.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_volume_4.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\rc_ic_volume_4.png"
-    },
-    {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_volume_4.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\rc_ic_volume_4.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_bubble_no_left.9.png",
@@ -304,12 +304,12 @@
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\rc_read_receipt.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u2601.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u2601.png"
-    },
-    {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u2601.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u2601.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_origin_check_sel.png",
@@ -496,12 +496,12 @@
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f614.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f451.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f451.png"
-    },
-    {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f46a.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f46a.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f451.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f451.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\select_check_nor.png",
@@ -1140,12 +1140,12 @@
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\rc_praise_hover.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f4da.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f4da.png"
-    },
-    {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f4da.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\drawable-xhdpi-v4\\u1f4da.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_volume_wraning.png",

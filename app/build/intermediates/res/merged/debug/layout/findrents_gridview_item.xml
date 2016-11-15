@@ -50,7 +50,7 @@
                   android:textColor="@color/black"
                   android:text="        纤云弄巧， 飞星传恨， 银汉迢迢暗度。金风玉露一相逢，便胜却人间无数。柔情似水， 佳期如梦， 忍顾鹊桥归路。两情若是久长时，又岂在朝朝暮暮！"/>
 
-        <com.example.rental.homepage.GridViewTest.PictureGridView
+        <com.example.rental.discovery.GridViewTest.PictureGridView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:verticalSpacing="5dp"

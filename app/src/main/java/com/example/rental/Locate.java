@@ -92,7 +92,10 @@ public class Locate extends Activity {
                         String longitude = Double.toString(aMapLocation.getLongitude());//longitude 经度
                         String latitude = Double.toString(aMapLocation.getLatitude());//latitude 纬度
                         String locate = longitude + "," + latitude;
-                        postLocate(locate);
+                        Log.i("Locate", aMapLocation.getAddress());
+                        String Address = aMapLocation.getAddress();
+
+                        postLocate(locate, Address);
 
                         String a = aMapLocation.getCity() + aMapLocation.getDistrict() + aMapLocation.getStreet();
                         textView.setText("当前位置:" + a);
@@ -121,7 +124,7 @@ public class Locate extends Activity {
         mLocationClient.startLocation();
     }
 
-    private void postLocate(final String locate) {
+    private void postLocate(final String locate, final String Address) {
         SharedPreferences sharedPreferences = getSharedPreferences("user", Activity.MODE_PRIVATE);
         String SecretKey = sharedPreferences.getString("SecretKey", null);
         String UserPhone = sharedPreferences.getString("UserPhone", null);
@@ -129,6 +132,7 @@ public class Locate extends Activity {
         requestParams.add("locate", locate);
         requestParams.add("SecretKey", SecretKey);
         requestParams.add("UserPhone", UserPhone);
+        requestParams.add("Address", Address);
         LocateService locateService = new LocateService();
         locateService.post(Locate.this, "locate", requestParams, new Listener() {
             @Override

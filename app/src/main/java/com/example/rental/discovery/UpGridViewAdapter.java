@@ -1,6 +1,8 @@
 package com.example.rental.discovery;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +13,10 @@ import android.widget.Toast;
 
 import com.example.rental.R;
 import com.example.rental.discovery.GridViewTest.WindowSize;
+import com.example.rental.homepage.UpRentActivity;
 import com.example.rental.util.PicassoImageLoader;
 import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.util.List;
 
@@ -22,6 +26,7 @@ import cn.finalteam.galleryfinal.FunctionConfig;
 import cn.finalteam.galleryfinal.GalleryFinal;
 import cn.finalteam.galleryfinal.ThemeConfig;
 import cn.finalteam.galleryfinal.model.PhotoInfo;
+import cn.finalteam.galleryfinal.widget.GFImageView;
 
 /**
  * Created by caolu on 2016/11/5.
@@ -35,6 +40,7 @@ public class UpGridViewAdapter extends BaseAdapter {
     private List<PhotoInfo> mList;
     private boolean mFirst = true;
     private static final int maxImage = 10;
+    private final PicassoImageLoader imageLoader = new PicassoImageLoader();
 
     public UpGridViewAdapter(Context context, int num, int col) {
         this.mContext = context;
@@ -44,6 +50,8 @@ public class UpGridViewAdapter extends BaseAdapter {
 
     public void setImageList(List<PhotoInfo> list) {
         this.mList = list;
+        mFirst = false;
+        this.notifyDataSetChanged();
     }
 
     @Override
@@ -66,30 +74,41 @@ public class UpGridViewAdapter extends BaseAdapter {
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        ImageView img = new ImageView(mContext);
+        Log.i("in","in");
+        final GFImageView img = new GFImageView(mContext);
         img.setScaleType(ImageView.ScaleType.CENTER_CROP);
         int width = WindowSize.getWidth(mContext);// 获取屏幕宽度
         Log.i("tag", "width" + width);
         int height = 0;
         width = width / col;// 对当前的列数进行设置imgView的宽度
-        if (num == 1) {
-            width /= 3;
-        }
         height = width;
         img.setLayoutParams(new AbsListView.LayoutParams(width, height));
-        img.setImageResource(R.drawable.camera);
-        img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                selectImg();
+        if (position == 0&&mList==null) {
+            img.setImageResource(R.drawable.camera);
+            img.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    selectImg();
+                }
+            });
+            mFirst = false;
+            return img;
+        }
+        if (mList!=null&&position==mList.size()){
+            img.setImageResource(R.drawable.camera);
+            img.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    selectImg();
+                }
+            });
+            return img;
+        }
+        if (mFirst == false) {
+            if (mList!=null) {
+                Log.i("path", "" + mList.get(position ).getPhotoPath());
+                imageLoader.displayImage(mContext, mList.get(position ).getPhotoPath(), img, null, width, width);
             }
-        });
-        mFirst = false;
-        if (!mFirst) {
-
-            Picasso.with(mContext)
-                    .load(mList.get(position).getPhotoPath())
-                    .into(img);
             img.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -106,11 +125,11 @@ public class UpGridViewAdapter extends BaseAdapter {
                 .build();
         //配置功能
         FunctionConfig config = new FunctionConfig.Builder()
-                .setMutiSelectMaxSize(maxImage)
+                .setMutiSelectMaxSize(maxImage-1)
                 .build();
 
         //配置imageloader
-        final PicassoImageLoader imageLoader = new PicassoImageLoader();
+        //final PicassoImageLoader imageLoader = new PicassoImageLoader();
         CoreConfig coreConfig = new CoreConfig.Builder(mContext, imageLoader, theme)
                 .setDebug(BuildConfig.DEBUG)
                 .setFunctionConfig(config)
@@ -121,7 +140,8 @@ public class UpGridViewAdapter extends BaseAdapter {
         GalleryFinal.openGalleryMuti(REQUEST_CODE_GALLERY, config, new GalleryFinal.OnHanlderResultCallback() {
             @Override
             public void onHanlderSuccess(int reqeustCode, List<PhotoInfo> resultList) {
-
+                num = resultList.size()+1;
+                setImageList(resultList);
             }
 
             @Override

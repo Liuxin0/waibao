@@ -1,5 +1,7 @@
 package com.example.rental.service;
 
+import android.util.Log;
+
 import com.example.rental.model.BaseModel;
 import com.example.rental.model.RentInfoModel;
 import com.google.gson.Gson;
@@ -41,6 +43,7 @@ public class RentInfoService {
 
         });
     }
+
     public static void get(String url, RequestParams params, final Listener listener) throws Exception {
         AsyncHttpClient client = new AsyncHttpClient();
         client.get(url, params, new AsyncHttpResponseHandler() {
@@ -55,7 +58,11 @@ public class RentInfoService {
             @Override
             public void onFailure(int statusCode, Header[] headers,
                                   byte[] responseBody, Throwable error) {
-                listener.onFailure("网络错误");
+                try {
+                    listener.onFailure("网络错误");
+                } catch (Exception e) {
+                    Log.e("RentlnService", "onFailure");
+                }
             }
 
 

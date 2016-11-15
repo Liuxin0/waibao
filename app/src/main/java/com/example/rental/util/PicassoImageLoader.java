@@ -1,6 +1,7 @@
 package com.example.rental.util;
 
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 
@@ -33,6 +34,18 @@ public class PicassoImageLoader implements cn.finalteam.galleryfinal.ImageLoader
                 .load(new File(path))
                 .placeholder(defaultDrawable)
  //               .error(defaultDrawable)
+                .config(mConfig)
+                .resize(width, height)
+                .centerInside()
+                .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
+                .into(imageView);
+    }
+
+    public void displayImage(Context activity, String path, GFImageView imageView, Drawable defaultDrawable, int width, int height) {
+        Picasso.with(activity)
+                .load(new File(path))
+                .placeholder(defaultDrawable)
+                //               .error(defaultDrawable)
                 .config(mConfig)
                 .resize(width, height)
                 .centerInside()

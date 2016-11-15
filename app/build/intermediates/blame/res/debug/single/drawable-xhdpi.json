@@ -60,12 +60,12 @@
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\camera.png",
@@ -110,6 +110,10 @@
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tabbar_discover.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\drawable-xhdpi\\tabbar_discover.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
@@ -178,6 +182,10 @@
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_photo.png",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\src\\main\\res\\drawable-xhdpi\\user_photo.png"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",

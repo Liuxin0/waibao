@@ -6,5 +6,13 @@
     {
         "merged": "E:\\software\\git\\waibao\\PullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
         "source": "E:\\software\\git\\waibao\\PullToRefresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\PullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\PullToRefresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\PullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\PullToRefresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
     }
 ]

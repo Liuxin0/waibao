@@ -58,9 +58,6 @@ public class MyGridViewAdapter extends BaseAdapter {
         Log.i("tag", "width" + width);
         int height = 0;
         width = width / col;// 对当前的列数进行设置imgView的宽度
-        if (num == 1) {
-            width /= 3;
-        }
         height = width;
         img.setLayoutParams(new AbsListView.LayoutParams(width, height));
         img.setImageResource(R.drawable.user_photo);

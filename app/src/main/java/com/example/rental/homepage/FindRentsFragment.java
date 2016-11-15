@@ -127,10 +127,15 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
 
                 @Override
                 public void onFailure(String msg) {
-                    Toast.makeText(getContext(), "网络错误", Toast.LENGTH_SHORT).show();
-                    mListView.onRefreshComplete();
-                    if (mode == 1)
-                        page--;
+                    try {
+                        Toast.makeText(getContext(), "网络错误", Toast.LENGTH_SHORT).show();
+
+                    } catch (Exception e){
+                        mListView.onRefreshComplete();
+                        if (mode == 1)
+                            page--;
+                    }
+
                 }
             });
         } catch (Exception e) {

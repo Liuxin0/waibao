@@ -4,12 +4,12 @@
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
         "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",

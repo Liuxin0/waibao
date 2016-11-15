@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="04c2a4b6938f9497196957b121ec73a656cbeeb7">
+        sha1="ee78c1f9375ed48cfeb07915a7d20ad3e22b69e2">
         <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\instant-run_543e966d016fe1a435fc62e67d486081eb5054ed.jar" />
     </item>
     <item
@@ -48,15 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_11fede178251ea4554c80093427ca3677d91f998.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\1111\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="true"
         optimize="true"
@@ -72,6 +63,33 @@
         revision="24.0.2"
         sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
         <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_47b725a9fd575395ac626a4ed19e9b71d807fa36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\1111\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_6b6452ff18a965644e773f32badb875da07d49f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_a05260bb9b0aa24a0ec44b28e416083c752e7438.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_11fede178251ea4554c80093427ca3677d91f998.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,15 +120,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\1111\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_6b6452ff18a965644e773f32badb875da07d49f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\work\study\AndroidProject\waibao\app\libs\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014.jar"
         jumboMode="true"
         optimize="true"
@@ -133,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="1812e975b041ce6bd923e55777d929412bb725ea">
+        sha1="e9b192c1f8552bfd47ebb9f5c5b9fe359f2adfe8">
         <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_6f5e171f55b87478911eb2422822c035de50bc2c.jar" />
     </item>
     <item
@@ -144,15 +153,6 @@
         revision="24.0.2"
         sha1="b2c38584767b206e7736300bdde33368b7cbc2db">
         <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\cn.finalteam-galleryfinal-1.4.3_84599e9d263a5ac703e6a1594e23432acdcc065f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_a05260bb9b0aa24a0ec44b28e416083c752e7438.jar" />
     </item>
 
 </items>

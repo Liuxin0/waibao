@@ -5,78 +5,98 @@
     android:orientation="vertical"
     android:background="@color/white">
 
-    <RelativeLayout style="@style/shxy_top_title">
+
+    <RelativeLayout style="@style/shxy_top_title"
+        android:fitsSystemWindows="true"
+        >
+
 
         <TextView
+            android:layout_marginTop="7dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:text="发表帖子"
+            android:padding="10dp"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
         <TextView
+            android:layout_marginTop="7dp"
+            android:id="@+id/updis_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="20dp"
-            android:padding="5dp"
+            android:padding="10dp"
             android:text="发表"
-            android:id="@+id/updis_up"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/updis_cancle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"
-            android:padding="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
             android:text="返回"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
+
     </RelativeLayout>
 
-    <EditText
-        android:id="@+id/updis_title"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:gravity="center_vertical"
-        android:hint="标题(可选)"
-        android:maxLength="20"
-        android:maxLines="1"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:textColor="@color/black"
-        android:textSize="16sp" />
+        android:layout_height="match_parent">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2sp"
-        android:background="@color/light_grey" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/updis_content"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:hint="内容"
-        android:textColor="@color/black"
-        android:textSize="15dp"
-        android:paddingBottom="60dp"/>
+            <EditText
+                android:background="@color/white"
+                android:id="@+id/updis_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:hint="标题(可选)"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2sp"
-        android:background="@color/light_grey" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="@color/light_grey" />
+
+            <EditText
+                android:background="@color/white"
+                android:id="@+id/updis_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="内容"
+                android:paddingBottom="60dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="@color/light_grey" />
 
 
-    <com.example.rental.discovery.GridViewTest.PictureGridView
-        android:id="@+id/updis_gridview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+            <com.example.rental.discovery.GridViewTest.PictureGridView
+                android:id="@+id/updis_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
