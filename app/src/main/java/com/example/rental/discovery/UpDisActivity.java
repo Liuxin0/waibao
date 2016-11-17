@@ -33,7 +33,7 @@ public class UpDisActivity extends Activity {
     private TextView mDoUp, mCancle;
     private PictureGridView mGridView;
     private static final int maxImage = 9;
-    private static final String URL= "http://183.175.14.250:8000/sendcircle";
+    private static final String URL= "http://183.175.12.181:8000/sendcircle";
     private UpGridViewAdapter mAdapter;
 
     @Override
@@ -55,6 +55,12 @@ public class UpDisActivity extends Activity {
         mGridView.setNumColumns(3);
         mAdapter = new UpGridViewAdapter(this, 1, 3);
         mGridView.setAdapter(mAdapter);
+        mCancle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
         mDoUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,8 +70,9 @@ public class UpDisActivity extends Activity {
                 RequestParams params = new RequestParams();
                 for (int i = 0;i<list.size();i++){
                     File file = new File(list.get(i).getPhotoPath());
+                    int j = i+1;
                     try {
-                        params.put("Picture"+i,file);
+                        params.put("Picture"+j,file);
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
                     }

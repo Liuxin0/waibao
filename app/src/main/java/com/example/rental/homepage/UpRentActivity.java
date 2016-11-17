@@ -53,7 +53,7 @@ public class UpRentActivity extends Activity implements View.OnClickListener {
     private GFImageView img;
     private EditText info;
     private String imgFilePath;
-    private static final String TargetURL = "http://183.175.14.250:8000/sendhezu";
+    private static final String TargetURL = "http://183.175.12.181:8000/sendhezu";
     private static final String Path = Environment.getExternalStorageDirectory().getPath() + "/temp.jpg";
     private File photoFile;
     private Spinner mSpinner;

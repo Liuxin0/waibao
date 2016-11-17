@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 17 14:17:13 CST 2016
+#Thu Nov 17 16:54:42 CST 2016
 20.base=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\folders\\2000\\1f\\main
 493.base=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_

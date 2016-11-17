@@ -5,6 +5,10 @@
     android:orientation="vertical"
     android:background="@color/white">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/title_blue"/>
 
     <RelativeLayout style="@style/shxy_top_title"
         android:fitsSystemWindows="true"
@@ -12,17 +16,18 @@
 
 
         <TextView
+            android:layout_centerVertical="true"
             android:layout_marginTop="7dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="发表帖子"
-            android:padding="10dp"
+           android:padding="10dp"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
         <TextView
-            android:layout_marginTop="7dp"
+            android:layout_centerVertical="true"
             android:id="@+id/updis_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,11 +38,11 @@
             android:textSize="16sp" />
 
         <TextView
+            android:layout_centerVertical="true"
             android:id="@+id/updis_cancle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_marginTop="7dp"
             android:layout_marginLeft="10dp"
             android:padding="10dp"
             android:text="返回"
@@ -46,9 +51,6 @@
 
     </RelativeLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,6 +58,7 @@
             android:orientation="vertical">
 
             <EditText
+                android:textCursorDrawable="@null"
                 android:background="@color/white"
                 android:id="@+id/updis_title"
                 android:layout_width="match_parent"
@@ -75,6 +78,7 @@
                 android:background="@color/light_grey" />
 
             <EditText
+                android:textCursorDrawable="@null"
                 android:background="@color/white"
                 android:id="@+id/updis_content"
                 android:layout_width="match_parent"
@@ -98,5 +102,4 @@
                 android:layout_height="match_parent" />
 
         </LinearLayout>
-    </ScrollView>
 </LinearLayout>

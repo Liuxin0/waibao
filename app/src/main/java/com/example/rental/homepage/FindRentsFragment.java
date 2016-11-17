@@ -36,22 +36,22 @@ import java.util.List;
  */
 public class FindRentsFragment extends Fragment implements View.OnClickListener {
 
-    private TextView occupationTextView, hobbyTextView,numTextView; //大分类按钮
-    private PopupWindow mPopupWindow1, mPopupWindow2,mPopupWindow3;   //控件
-    private View popuWindow1, popuWindow2,popuWindow3;              //布局
+    private TextView occupationTextView, hobbyTextView, numTextView; //大分类按钮
+    private PopupWindow mPopupWindow1, mPopupWindow2, mPopupWindow3;   //控件
+    private View popuWindow1, popuWindow2, popuWindow3;              //布局
     private int whereDisMiss = 0;                       //0;通过点击其他处隐藏，1:通过点击确定按钮隐藏
 
     private MyLinearLayouts[] mmLinearLayouts;          //大分类按键类数组
     private int mmNum = 3;                              //大分类按键数量
 
-    private final String[][] mT = new String[][]{{"程序员","公务员","教师","学生"},{"写代码","旅游"},{"2人","3人","4人","4人及以上"}};
+    private final String[][] mT = new String[][]{{"程序员", "公务员", "教师", "学生"}, {"写代码", "旅游"}, {"2人", "3人", "4人", "4人及以上"}};
 
     private PullToRefreshListView mListView;
     private RentsAdapter mAdapter;
     private static final String mUrl = "http://183.175.14.250:8000/hezuinfors";
     private int page = 1;          //上拉加载页面
     private List<RentInfoBean> mData;
-    private String[] exUrls ;
+    private String[] exUrls;
     private boolean mFirst = true;
 
     @Override
@@ -74,25 +74,24 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
 
     private void initExUrl() {
         exUrls = new String[mmNum];
-        for (int i = 0; i<mmNum;i++){
+        for (int i = 0; i < mmNum; i++) {
             exUrls[i] = "";
         }
     }
 
     /**
-     *
-     * @param first   第一次设置adapter 否则刷新数据
-     * @param mode    mode = 0;下拉刷新，mode = 1;上拉加载。
+     * @param first 第一次设置adapter 否则刷新数据
+     * @param mode  mode = 0;下拉刷新，mode = 1;上拉加载。
      */
     private void downloadInfo(final boolean first, final int mode) {
         RequestParams param = new RequestParams();
         param.put("page", page);
-        param.put("Label1",exUrls[0]);
-        param.put("Label2",exUrls[1]);
-        param.put("Label3",exUrls[2]);
-        Log.i("exx",exUrls[0]+"*");
-        Log.i("exx",exUrls[1]+"*");
-        Log.i("exx",exUrls[2]+"*");
+        param.put("Label1", exUrls[0]);
+        param.put("Label2", exUrls[1]);
+        param.put("Label3", exUrls[2]);
+        Log.i("exx", exUrls[0] + "*");
+        Log.i("exx", exUrls[1] + "*");
+        Log.i("exx", exUrls[2] + "*");
 
         try {
             RentInfoService.get(mUrl, param, new Listener() {
@@ -106,18 +105,17 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                         if (model.getState() == 1) {
                             if (mode == 1)
                                 mData.addAll(model.getHezudata());
-                            else{
+                            else {
                                 mData = model.getHezudata();
                             }
                             mAdapter.setData(mData);
                             if (first) {
                                 mListView.setAdapter(mAdapter);
                                 mFirst = false;
-                            }
-                            else {
+                            } else {
                                 mAdapter.notifyDataSetChanged();
                             }
-                            Log.i("refresh","yes");
+                            Log.i("refresh", "yes");
                         } else {
                             Toast.makeText(getContext(), model.getMsg(), Toast.LENGTH_SHORT).show();
                         }
@@ -127,15 +125,10 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
 
                 @Override
                 public void onFailure(String msg) {
-                    try {
-                        Toast.makeText(getContext(), "网络错误", Toast.LENGTH_SHORT).show();
-
-                    } catch (Exception e){
-                        mListView.onRefreshComplete();
-                        if (mode == 1)
-                            page--;
-                    }
-
+                    Toast.makeText(getContext(), "网络错误", Toast.LENGTH_SHORT).show();
+                    if (mode == 1)
+                        page--;
+                    mListView.onRefreshComplete();
                 }
             });
         } catch (Exception e) {
@@ -299,9 +292,9 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                 if (hasSelect(mmLinearLayouts[0].mLinears)) {
                     occupationTextView.setBackgroundResource(R.drawable.homepagerents_text_selectsome_selector);
                     occupationTextView.setTextColor(Color.RED);
-                    exUrls[0] = addUrl(mmLinearLayouts[0],0);
+                    exUrls[0] = addUrl(mmLinearLayouts[0], 0);
                     page = 0;
-                    downloadInfo(mFirst,0);
+                    downloadInfo(mFirst, 0);
                 } else {
                     occupationTextView.setBackgroundResource(R.color.light_grey);
                     occupationTextView.setTextColor(Color.BLACK);
@@ -324,9 +317,9 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                      * 增加网络请求，刷新listview
                      */
 
-                    exUrls[1] = addUrl(mmLinearLayouts[1],1);
+                    exUrls[1] = addUrl(mmLinearLayouts[1], 1);
                     page = 0;
-                    downloadInfo(mFirst,0);
+                    downloadInfo(mFirst, 0);
                 } else {
                     hobbyTextView.setBackgroundResource(R.color.light_grey);
                     hobbyTextView.setTextColor(Color.BLACK);
@@ -345,9 +338,9 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                 if (hasSelect(mmLinearLayouts[2].mLinears)) {
                     numTextView.setBackgroundResource(R.drawable.homepagerents_text_selectsome_selector);
                     numTextView.setTextColor(Color.RED);
-                    exUrls[2] = addUrl(mmLinearLayouts[2],2);
+                    exUrls[2] = addUrl(mmLinearLayouts[2], 2);
                     page = 0;
-                    downloadInfo(mFirst,0);
+                    downloadInfo(mFirst, 0);
                 } else {
                     numTextView.setBackgroundResource(R.color.light_grey);
                     numTextView.setTextColor(Color.BLACK);
@@ -359,7 +352,7 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
         });
     }
 
-    private String addUrl(MyLinearLayouts mm,int which) {
+    private String addUrl(MyLinearLayouts mm, int which) {
         String temp = "";
         for (int i = 0; i < mm.mLinears.length; i++) {
             MyFlag flag = (MyFlag) mm.mLinears[i].getTag();
@@ -451,7 +444,7 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
                 checkLinearLayout(mmLinearLayouts[1].mLinears);
                 break;
             case R.id.homepagemain_fragment_num:
-                mPopupWindow3.showAsDropDown(view,0,10);
+                mPopupWindow3.showAsDropDown(view, 0, 10);
                 checkLinearLayout(mmLinearLayouts[2].mLinears);
                 break;
         }
