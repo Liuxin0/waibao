@@ -1,10 +1,13 @@
 package com.example.rental.model;
 
+import java.io.Serializable;
+
 /**
  * Created by caolu on 2016/11/8.
  */
 
-public class RentInfoBean {
+public class RentInfoBean implements Serializable {
+    private Integer SendHezuId;
     private String UserName;
     private String SecretKey;
     private String Information ;
@@ -16,7 +19,18 @@ public class RentInfoBean {
     private Integer Label1;
     private Integer Label2;
     private Integer Label3;
-    private String PictureEx;
+
+    public Integer getSendHezuId() {
+        return SendHezuId;
+    }
+
+    public void setSendHezuId(Integer sendHezuId) {
+        SendHezuId = sendHezuId;
+    }
+
+    private String PictureEx
+
+            ;
 
     public String getUserPhotoEx() {
         return UserPhotoEx;

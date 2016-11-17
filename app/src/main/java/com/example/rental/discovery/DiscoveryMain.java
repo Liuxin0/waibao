@@ -33,7 +33,10 @@ public class DiscoveryMain extends Fragment{
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(), UpDisActivity.class));
+                getActivity().finish();
             }
         });
+        mListView = (PullToRefreshListView) getActivity().findViewById(R.id.dismain_listview);
+
     }
 }

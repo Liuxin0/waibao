@@ -1,14 +1,14 @@
 [
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+        "merged": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+        "merged": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
     },
     {
-        "merged": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
-        "source": "D:\\work\\study\\AndroidProject\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+        "merged": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
     }
 ]

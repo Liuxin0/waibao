@@ -16,8 +16,8 @@
             android:id="@+id/tomap"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:layout_alignParentLeft="true"
-            android:text="tomap"
+            android:layout_alignParentStart="true"
+            android:text="请设置位置"
             android:textSize="22sp" />
 
         <ImageView

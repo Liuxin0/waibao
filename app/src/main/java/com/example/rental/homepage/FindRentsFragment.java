@@ -48,7 +48,7 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
 
     private PullToRefreshListView mListView;
     private RentsAdapter mAdapter;
-    private static final String mUrl = "http://183.175.12.181:8000/hezuinfors";
+    private static final String mUrl = "http://183.175.14.250:8000/hezuinfors";
     private int page = 1;          //上拉加载页面
     private List<RentInfoBean> mData;
     private String[] exUrls ;

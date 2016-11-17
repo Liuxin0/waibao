@@ -1,6 +1,8 @@
 package com.example.rental.homepage;
 
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +44,7 @@ public class RentsAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
 
         ViewHolder holder = null;
         convertView = LayoutInflater.from(mContext).inflate(R.layout.findrents_item, parent, false);
@@ -52,6 +54,9 @@ public class RentsAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
 
+                Intent intent = new Intent(mContext,RentDetailActivity.class);
+                intent.putExtra("data",data.get(position));
+                mContext.startActivity(intent);
             }
         });
         return convertView;

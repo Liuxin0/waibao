@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:id="@+id/derent_photo"
+            android:src="@drawable/ic_launcher"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/derent_name"
+
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="name"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/derent_time"
+
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="time"
+            android:textColor="@color/black"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/derent_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="where"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/derent_label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标签1"
+            android:textColor="@color/black"
+            android:layout_margin="3dp"
+            />
+        <TextView
+            android:id="@+id/derent_label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标签2"
+            android:textColor="@color/black"
+            android:layout_margin="3dp"
+
+            />
+        <TextView
+            android:id="@+id/derent_label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标签3"
+            android:textColor="@color/black"
+            android:layout_margin="3dp"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/derent_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+    <ImageView
+        android:id="@+id/derent_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_launcher"/>
+</LinearLayout>

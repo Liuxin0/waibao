@@ -2,35 +2,35 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="19"
-    density="xhdpi"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="53026623281299"
-    token="-5979741492104642531"
+    timestamp="582301258916818"
+    token="1183654454672091799"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="817" />
+        duration="2328" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="93" />
+        duration="39" />
     <task
         name="verifier"
-        duration="47" />
+        duration="4" />
 
     <artifact
-        location="D:\work\study\AndroidProject\waibao\app\build\outputs\apk\app-debug.apk"
+        location="E:\software\git\newwaibao\waibao\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="53026623281299"
+        timestamp="582301258916818"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\work\study\AndroidProject\waibao\app\build\outputs\apk\app-debug.apk"
+            location="E:\software\git\newwaibao\waibao\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

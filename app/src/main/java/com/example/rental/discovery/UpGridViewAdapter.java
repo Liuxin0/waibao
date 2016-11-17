@@ -48,6 +48,10 @@ public class UpGridViewAdapter extends BaseAdapter {
         this.col = col;
     }
 
+    public List<PhotoInfo> getPicture(){
+        return mList;
+    }
+
     public void setImageList(List<PhotoInfo> list) {
         this.mList = list;
         mFirst = false;

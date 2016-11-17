@@ -123,9 +123,8 @@ public class LoginActivity extends FragmentActivity implements
                 @Override
                 public void onSuccess(String userid) {
 
-                    Intent intent = new Intent();
-                    intent.setClass(LoginActivity.this, MyActivity.class);
-                    startActivity(intent);
+                    if (RongIM.getInstance() != null)
+                        RongIM.getInstance().startConversationList(LoginActivity.this);
                     finish();
                     Log.d("LoginActivity", "--onSuccess" + userid);
 

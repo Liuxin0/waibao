@@ -1,405 +1,409 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:2:1-102:12
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:2:1-101:12
 	package
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:3:5-33
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:7:5-44
-MERGED from [waibao:pinchimageview:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\pinchimageview\unspecified\AndroidManifest.xml:8:5-10:41
-MERGED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:7:5-9:41
-MERGED from [pub.devrel:easypermissions:0.1.0] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:7:5-9:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [waibao:PullToRefresh:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\PullToRefresh\unspecified\AndroidManifest.xml:7:5-9:41
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:7:5-44
+MERGED from [waibao:pinchimageview:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\pinchimageview\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:0.1.0] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [waibao:PullToRefresh:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\PullToRefresh\unspecified\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:7:15-41
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
-		INJECTED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:11:5-67
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:13:5-67
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:13:5-67
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:11:22-64
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:13:5-81
-MERGED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:14:5-81
-MERGED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:14:5-81
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:12:5-81
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:13:5-81
+MERGED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:14:5-81
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:15:5-79
-MERGED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:24:5-79
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:14:5-79
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:15:5-79
+MERGED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:24:5-79
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:15:22-76
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:15:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:17:5-76
-MERGED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:20:5-76
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:16:5-76
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:17:5-76
+MERGED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:20:5-76
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:17:22-73
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:17:22-73
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:19:5-75
-MERGED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:18:5-75
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:18:5-75
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:19:5-75
+MERGED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:18:5-75
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:18:5-75
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:19:22-72
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:19:22-72
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:21:5-81
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:15:5-81
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:21:5-81
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:21:22-78
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:21:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:25:5-79
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:25:5-79
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:25:22-76
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:25:22-76
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:31:5-76
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:31:5-76
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:31:22-73
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:31:22-73
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:40:5-84
-MERGED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:12:5-84
-MERGED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:12:5-84
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:40:5-84
+MERGED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:12:5-84
+MERGED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:12:5-84
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:40:22-81
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:40:22-81
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:42:5-80
-MERGED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:16:5-80
-MERGED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:16:5-80
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:11:5-80
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:42:5-80
+MERGED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:16:5-80
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:42:22-77
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:42:22-77
 application
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:45:5-101:19
-MERGED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:18:5-30:19
-MERGED from [pub.devrel:easypermissions:0.1.0] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.1.0\AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support:appcompat-v7:23.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\AndroidManifest.xml:9:5-20
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:32:5-149:19
-MERGED from [waibao:PullToRefresh:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\PullToRefresh\unspecified\AndroidManifest.xml:11:5-20
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:45:5-100:19
+MERGED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:18:5-30:19
+MERGED from [pub.devrel:easypermissions:0.1.0] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.1.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:32:5-149:19
+MERGED from [waibao:PullToRefresh:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\PullToRefresh\unspecified\AndroidManifest.xml:11:5-20
 	android:label
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:48:9-41
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:48:9-41
 	android:supportsRtl
-		ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:20:9-35
+		ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:20:9-35
 	android:icon
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:46:9-45
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:46:9-45
 	android:allowBackup
-		ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:19:9-35
+		ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:19:9-35
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:47:9-28
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:47:9-28
 service#com.amap.api.location.APSService
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:49:9-68
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:49:9-68
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:49:18-65
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:49:18-65
 meta-data#com.amap.api.v2.apikey
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:51:9-53:63
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:51:9-53:63
 	android:value
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:53:13-61
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:53:13-61
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:52:13-50
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:52:13-50
 activity#com.example.rental.MyActivity
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:55:9-68:20
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:55:9-68:20
 	android:screenOrientation
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:56:13-49
 	android:label
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:59:13-45
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:59:13-45
 	android:windowSoftInputMode
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:57:13-67
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:57:13-67
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:58:13-38
-intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:60:13-67:29
-action#android.intent.action.VIEW
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:61:17-69
-	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:61:25-66
-category#android.intent.category.DEFAULT
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:62:17-76
-	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:62:27-73
-data
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:63:17-66:45
-	android:host
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:64:21-54
-	android:scheme
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:66:21-42
-	android:pathPrefix
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:65:21-59
-activity#com.example.rental.Locate
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:69:9-71:20
-	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:69:19-41
-activity#com.example.rental.homepage.UpRentActivity
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:73:9-74:15
-	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:73:19-58
-activity#com.example.rental.discovery.UpDisActivity
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:75:9-60
-	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:75:19-58
-activity#com.example.rental.Login.LoginActivity
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:77:9-82:20
-	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:77:19-54
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:58:13-38
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:78:13-81:29
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:60:13-67:29
 action#android.intent.action.MAIN
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:79:17-69
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:79:25-66
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:80:17-77
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:62:17-77
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:80:27-74
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:62:27-74
+data
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:63:17-66:45
+	android:host
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:64:21-54
+	android:scheme
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:66:21-42
+	android:pathPrefix
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:65:21-59
+activity#com.example.rental.Locate
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:69:9-71:20
+	android:name
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:69:19-41
+activity#com.example.rental.homepage.UpRentActivity
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:73:9-74:15
+	android:name
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:73:19-58
+activity#com.example.rental.discovery.UpDisActivity
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:75:9-60
+	android:name
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:75:19-58
+activity#com.example.rental.homepage.RentDetailActivity
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:77:9-64
+	android:name
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:77:19-62
+activity#com.example.rental.Login.LoginActivity
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:79:9-81:20
+	android:name
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:79:19-54
 activity#com.example.rental.PImageView.zoomtransition.PicViewActivity
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:84:9-86:47
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:83:9-85:47
 	android:theme
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:86:13-44
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:85:13-44
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:85:13-70
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:84:13-70
 activity#com.example.rental.PImageView.zoomtransition.ThumbViewActivity
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:87:9-81
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:86:9-81
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:87:19-78
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:86:19-78
 activity#com.example.rental.friend.FriendMain
-ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:89:9-100:20
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:88:9-99:20
 	android:name
-		ADDED from D:\work\study\AndroidProject\waibao\app\src\main\AndroidManifest.xml:89:19-52
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:88:19-52
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:89:13-98:29
+action#android.intent.action.VIEW
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:90:17-69
+	android:name
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:90:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:92:17-76
+	android:name
+		ADDED from E:\software\git\newwaibao\waibao\app\src\main\AndroidManifest.xml:92:27-73
 activity#cn.finalteam.galleryfinal.PhotoSelectActivity
-ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:21:9-23:52
+ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:21:9-23:52
 	android:screenOrientation
-		ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:23:13-49
+		ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:23:13-49
 	android:name
-		ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:22:13-73
+		ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:22:13-73
 activity#cn.finalteam.galleryfinal.PhotoEditActivity
-ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:24:9-26:52
+ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:24:9-26:52
 	android:screenOrientation
-		ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:26:13-49
+		ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:26:13-49
 	android:name
-		ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:25:13-71
+		ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:25:13-71
 activity#cn.finalteam.galleryfinal.PhotoPreviewActivity
-ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:27:9-29:52
+ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:27:9-29:52
 	android:screenOrientation
-		ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:29:13-49
+		ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:29:13-49
 	android:name
-		ADDED from [cn.finalteam:galleryfinal:1.4.3] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:28:13-74
+		ADDED from [cn.finalteam:galleryfinal:1.4.3] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\AndroidManifest.xml:28:13-74
 uses-permission#android.permission.GET_TASKS
-ADDED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:22:5-68
-MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:22:5-68
+ADDED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:22:5-68
+MERGED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:22:5-68
 	android:name
-		ADDED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:22:22-65
+		ADDED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:22:22-65
 uses-permission#android.permission.CALL_PHONE
-ADDED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:26:5-69
+ADDED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:26:5-69
 	android:name
-		ADDED from [cn.finalteam:toolsfinal:1.1.1] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:26:22-66
+		ADDED from [cn.finalteam:toolsfinal:1.1.1] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\AndroidManifest.xml:26:22-66
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:21:5-71
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:21:5-71
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:21:22-68
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:21:22-68
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:23:5-68
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:23:5-68
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:23:22-65
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:23:22-65
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:24:5-80
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:24:22-77
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:24:22-77
 uses-permission#android.permission.VIBRATE
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:25:5-66
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:25:5-66
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:25:22-63
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:25:22-63
 uses-permission#android.permission.CAMERA
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:26:5-65
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:26:5-65
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:26:22-62
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:26:22-62
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:27:5-73
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:27:5-73
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:27:22-70
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:27:22-70
 uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:28:5-85
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:28:5-85
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:28:22-82
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:28:22-82
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:29:5-81
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:29:5-81
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:29:22-78
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:29:22-78
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:30:5-78
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:30:5-78
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:30:22-75
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:30:22-75
 activity#io.rong.imkit.activity.PictureSelectorActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:33:9-35:52
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:33:9-35:52
 	android:screenOrientation
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:35:13-49
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:35:13-49
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:34:13-74
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:34:13-74
 activity#io.rong.imkit.activity.PicturePreviewActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:36:9-38:52
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:36:9-38:52
 	android:screenOrientation
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:38:13-49
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:37:13-73
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:37:13-73
 activity#io.rong.imkit.tools.RongWebviewActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:39:9-63:20
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:39:9-63:20
 	android:screenOrientation
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:41:13-49
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:40:13-67
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:40:13-67
 intent-filter#android.intent.category.DEFAULT+io.rong.imkit.intent.action.webview
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:44:13-48:29
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:44:13-48:29
 action#io.rong.imkit.intent.action.webview
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:45:17-78
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:45:17-78
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:45:25-75
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:45:25-75
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:49:13-61:29
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:49:13-61:29
 category#android.intent.category.BROWSABLE
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:60:17-78
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:60:17-78
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:60:27-75
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:60:27-75
 activity#io.rong.imkit.widget.provider.TakingPicturesActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:64:9-67:52
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:64:9-67:52
 	android:screenOrientation
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:67:13-49
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:67:13-49
 	android:configChanges
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:66:13-63
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:66:13-63
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:65:13-80
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:65:13-80
 activity#io.rong.imkit.activity.PicturePagerActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:68:9-70:74
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:68:9-70:74
 	android:theme
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:70:13-71
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:70:13-71
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:69:13-71
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:69:13-71
 activity#io.rong.imkit.mention.MemberMentionedActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:71:9-74:67
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:71:9-74:67
 	android:windowSoftInputMode
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:74:13-64
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:74:13-64
 	android:configChanges
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:73:13-63
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:73:13-63
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:72:13-73
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:72:13-73
 activity#io.rong.imkit.activity.FileManagerActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:75:9-79
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:75:9-79
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:75:19-76
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:75:19-76
 activity#io.rong.imkit.activity.FileListActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:76:9-76
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:76:9-76
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:76:19-73
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:76:19-73
 activity#io.rong.imkit.activity.FilePreviewActivity
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:77:9-79
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:77:9-79
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:77:19-76
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:77:19-76
 service#io.rong.push.core.PushRegistrationService
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:81:9-84:19
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:81:9-84:19
 	android:exported
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:83:13-37
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:83:13-37
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:82:13-69
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:82:13-69
 service#io.rong.push.core.MessageHandleService
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:87:9-90:19
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:87:9-90:19
 	android:exported
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:89:13-36
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:89:13-36
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:88:13-66
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:88:13-66
 service#io.rong.push.PushService
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:93:9-97:19
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:93:9-97:19
 	android:process
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:96:13-43
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:96:13-43
 	android:exported
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:95:13-37
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:95:13-37
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:94:13-52
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:94:13-52
 receiver#io.rong.push.PushReceiver
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:100:9-120:20
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:100:9-120:20
 	android:process
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:102:13-43
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:102:13-43
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:101:13-53
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:101:13-53
 intent-filter#io.rong.push.intent.action.HEART_BEAT
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:104:13-106:29
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:104:13-106:29
 action#io.rong.push.intent.action.HEART_BEAT
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:105:17-80
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:105:17-80
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:105:25-77
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:105:25-77
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:108:13-110:29
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:108:13-110:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:109:17-79
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:109:17-79
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:109:25-76
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:109:25-76
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:112:13-114:29
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:112:13-114:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:113:17-79
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:113:17-79
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:113:25-76
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:113:25-76
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.USER_PRESENT
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:115:13-119:29
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:115:13-119:29
 action#android.intent.action.USER_PRESENT
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:116:17-77
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:116:17-77
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:116:25-74
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:116:25-74
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:117:17-87
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:117:17-87
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:117:25-84
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:117:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:118:17-90
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:118:17-90
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:118:25-87
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:118:25-87
 meta-data#RONG_CLOUD_APP_KEY
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:129:9-131:45
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:129:9-131:45
 	android:value
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:131:13-42
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:131:13-42
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:130:13-46
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:130:13-46
 service#io.rong.imlib.ipc.RongService
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:133:9-136:38
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:133:9-136:38
 	android:process
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:136:13-35
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:136:13-35
 	android:exported
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:135:13-36
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:135:13-36
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:134:13-57
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:134:13-57
 service#io.rong.imlib.ReConnectService
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:137:9-139:39
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:137:9-139:39
 	android:exported
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:139:13-36
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:139:13-36
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:138:13-58
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:138:13-58
 receiver#io.rong.imlib.ConnectChangeReceiver
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:141:9-143:39
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:141:9-143:39
 	android:exported
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:143:13-36
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:143:13-36
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:142:13-63
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:142:13-63
 receiver#io.rong.imlib.HeartbeatReceiver
-ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:144:9-146:38
+ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:144:9-146:38
 	android:process
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:146:13-35
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:146:13-35
 	android:name
-		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:145:13-59
+		ADDED from [waibao:Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable:unspecified] E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\AndroidManifest.xml:145:13-59

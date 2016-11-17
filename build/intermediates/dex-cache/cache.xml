@@ -3,156 +3,156 @@
 
     <item
         is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ee78c1f9375ed48cfeb07915a7d20ad3e22b69e2">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\instant-run_543e966d016fe1a435fc62e67d486081eb5054ed.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\jars\libs\Rong_IMKit_v2_7_3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0c643cfb2be6367fc01eca8436b86699961fb91c">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\Rong_IMKit_v2_7_3_1c95349b7fdbe2b081cdeaf687412972f1dbb73c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\1111\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_cd26530faeb924d6841094e3813babda3bf44e79.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\libs\android-async-http-1.4.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.8_86c216ab23df9035ab3d59fc6904b1b6b686f180.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\libs\gson.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\gson_a274b720d837e2c7313b7bd3d67d77d5d185d0c3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\1111\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_f27a3fed4b92b8bc1b69ac48453ed94fa8c5484f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_47b725a9fd575395ac626a4ed19e9b71d807fa36.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\1111\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_6b6452ff18a965644e773f32badb875da07d49f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_a05260bb9b0aa24a0ec44b28e416083c752e7438.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_11fede178251ea4554c80093427ca3677d91f998.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="745e38d006588ddc28a76c3fb085d54797380e97">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\pub.devrel-easypermissions-0.1.0_10d614db81ca90b9f13544d1d870a9c0d916b3b6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_04ecf4f478aab2ddfddf6285a07638d4b16cbe5d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5aaa7b2e653b709401c787ef506fe474ac830240">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\cn.finalteam-toolsfinal-1.1.1_9f425a2443acb37eadc9f5d1ad563c9c633785d5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\libs\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="dbebb1ea9963d743b367654302303d46de6ec3c9">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014_f8b616857e27e1edcca9dbb26697bc9a7370eadd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_c0f7fff5c6db3634108ab211a19440e7fbadb60b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e9b192c1f8552bfd47ebb9f5c5b9fe359f2adfe8">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_6f5e171f55b87478911eb2422822c035de50bc2c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\work\study\AndroidProject\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\jars\classes.jar"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.3\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="b2c38584767b206e7736300bdde33368b7cbc2db">
-        <dex dex="D:\work\study\AndroidProject\waibao\app\build\intermediates\pre-dexed\debug\cn.finalteam-galleryfinal-1.4.3_84599e9d263a5ac703e6a1594e23432acdcc065f.jar" />
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\cn.finalteam-galleryfinal-1.4.3_a22704df7bb2e67abf230bff7af7600ebbb8ce18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="28845b72c50eb1bbb7831f6e48377fec78b0702a">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\instant-run_520ed68df960a73380f7662e65c420357dedf786.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_62863560a80b257bb5a8011319782c115fa950fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\waibao\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\unspecified\jars\libs\Rong_IMKit_v2_7_3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0c643cfb2be6367fc01eca8436b86699961fb91c">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\Rong_IMKit_v2_7_3_d26e5b4401c432c3a9b9b2c08312f8eeeea258c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_499ca8b50dea5f432d06deb79453e0c03b5d1386.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\caolu\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_869f2f7cbcb5214bcf8788255c781b4e16c333f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_3ad83a73a2040911d0e1022ec347efddd10a8456.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="745e38d006588ddc28a76c3fb085d54797380e97">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\pub.devrel-easypermissions-0.1.0_25258d8fa42226c5e7eafcdbf86bce581b2c1145.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\libs\gson.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\gson_52db7ca64499b11be91eaa2ed86f321fd3f0a8b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_b601f243ea17a10fbc3e2c7c9a0d1ef374783848.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_c1d33fecb1bc307778ff190efdc597abb71ba7ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\libs\android-async-http-1.4.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.8_fb1f30c4b0f59a33596d87b7467edd402bfba71a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="65a1f26403ef3f92dd1d4540dad8bdda53228e5d">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c4bc3954fdeff80acec303021409ff4368d904f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\libs\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dbebb1ea9963d743b367654302303d46de6ec3c9">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\AMap2DMap_2.9.1_AMapSearch_3.5.0_AMapLocation_3.0.0_20161014_de2563601eee4713b4e2d11bc58aaf3e3b428778.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\caolu\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_6aaef1dc7bd3b060e0effd990c8512909c3b8a0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_c45a91a91bc56175badc60d4a90594e0bd3e6545.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\software\git\newwaibao\waibao\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5aaa7b2e653b709401c787ef506fe474ac830240">
+        <dex dex="E:\software\git\newwaibao\waibao\app\build\intermediates\pre-dexed\debug\cn.finalteam-toolsfinal-1.1.1_0a76fb18412e3b6a8172fc9ce7b98696b6ad34f7.jar" />
     </item>
 
 </items>
