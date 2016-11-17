@@ -16,6 +16,7 @@ import java.io.IOException;
  */
 
 public class BaseUtil {
+    public static final String BASE_URL = "http://183.175.12.181:8000/";
     public static boolean isNetworkConnected(Context context) {
         if (context != null) {
             ConnectivityManager mConnectivityManager = (ConnectivityManager) context

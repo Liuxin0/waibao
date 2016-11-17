@@ -2,6 +2,7 @@ package com.example.rental.discovery;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -15,6 +16,7 @@ import com.example.rental.homepage.UpRentActivity;
 import com.example.rental.model.BaseModel;
 import com.example.rental.service.BaseService;
 import com.example.rental.service.Listener;
+import com.example.rental.util.BaseUtil;
 import com.loopj.android.http.RequestParams;
 
 import java.io.File;
@@ -33,7 +35,7 @@ public class UpDisActivity extends Activity {
     private TextView mDoUp, mCancle;
     private PictureGridView mGridView;
     private static final int maxImage = 9;
-    private static final String URL= "http://183.175.12.181:8000/sendcircle";
+    private static final String URL= BaseUtil.BASE_URL+"sendcircle";
     private UpGridViewAdapter mAdapter;
 
     @Override
@@ -68,16 +70,21 @@ public class UpDisActivity extends Activity {
 
 
                 RequestParams params = new RequestParams();
-                for (int i = 0;i<list.size();i++){
-                    File file = new File(list.get(i).getPhotoPath());
-                    int j = i+1;
-                    try {
-                        params.put("Picture"+j,file);
-                    } catch (FileNotFoundException e) {
-                        e.printStackTrace();
+                if (list!=null) {
+                    for (int i = 0; i < list.size(); i++) {
+                        File file = new File(list.get(i).getPhotoPath());
+                        int j = i + 1;
+                        try {
+                            params.put("Picture" + j, file);
+                            Log.i("picture", j + "");
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
                     }
+                    params.put("num", list.size() + "");
+                }else{
+                    params.put("num", 0 + "");
                 }
-
                 params.put("Title",mTitle.getText().toString());
                 params.put("UserPhone", "15248073068");
                 params.put("SecretKey", "abdefeacd7a345860276994e6bffc805");

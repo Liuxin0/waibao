@@ -2,6 +2,7 @@ package com.example.rental.homepage;
 
 import android.app.Activity;
 import android.graphics.Color;
+import android.media.audiofx.BassBoost;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -48,7 +49,7 @@ public class FindRentsFragment extends Fragment implements View.OnClickListener 
 
     private PullToRefreshListView mListView;
     private RentsAdapter mAdapter;
-    private static final String mUrl = "http://183.175.14.250:8000/hezuinfors";
+    private static final String mUrl = BaseUtil.BASE_URL+"hezuinfors";
     private int page = 1;          //上拉加载页面
     private List<RentInfoBean> mData;
     private String[] exUrls;
