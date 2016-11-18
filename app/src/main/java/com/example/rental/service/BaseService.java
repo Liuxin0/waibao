@@ -17,6 +17,7 @@ import org.apache.http.Header;
 public class BaseService {
     public static void post(String url, RequestParams params, final Listener listener) throws Exception {
         AsyncHttpClient client = new AsyncHttpClient();
+        client.setTimeout(100000);
         client.post(url, params, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers,

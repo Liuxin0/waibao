@@ -39,7 +39,7 @@ public class UpGridViewAdapter extends BaseAdapter {
     private int col;
     private List<PhotoInfo> mList;
     private boolean mFirst = true;
-    private static final int maxImage = 10;
+    private static final int maxImage = 7;
     private final PicassoImageLoader imageLoader = new PicassoImageLoader();
 
     public UpGridViewAdapter(Context context, int num, int col) {

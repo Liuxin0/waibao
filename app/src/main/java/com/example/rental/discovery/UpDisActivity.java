@@ -34,7 +34,7 @@ public class UpDisActivity extends Activity {
     private EditText mTitle, mContent;
     private TextView mDoUp, mCancle;
     private PictureGridView mGridView;
-    private static final int maxImage = 9;
+    private static final int maxImage = 6;
     private static final String URL= BaseUtil.BASE_URL+"sendcircle";
     private UpGridViewAdapter mAdapter;
 

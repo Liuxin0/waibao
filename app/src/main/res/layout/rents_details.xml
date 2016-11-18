@@ -3,6 +3,21 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/title_blue"/>
+    <LinearLayout
+       style="@style/shxy_top_title"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详情"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -106,4 +121,20 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:src="@drawable/ic_launcher"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加好友"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/login_button_selector"
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/derent_friend"/>
+
+    </RelativeLayout>
 </LinearLayout>

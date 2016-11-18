@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 17 17:21:50 CST 2016
+#Thu Nov 17 19:53:03 CST 2016
 20.base=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_
 493.base=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -236,7 +236,7 @@
 254.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\rc_ic_delete.png
 425.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\user_photo.png
 47.set=ANDROID_RESOURCE
-287.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png
+287.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\homepagemain_fragment.xml
 458.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_primary_text_material_light.xml
 172.set=ANDROID_RESOURCE
 151.base=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -1074,7 +1074,7 @@
 253.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\rc_ic_files.xml
 424.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\indicator_bg_top.xml
 37.set=ANDROID_RESOURCE
-286.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\homepagemain_fragment.xml
+286.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png
 457.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\rc_fr_photo.xml
 618.set=ANDROID_RESOURCE
 149.file=E\:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\rc_fr_public_service_search.xml

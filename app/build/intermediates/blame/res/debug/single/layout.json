@@ -8,12 +8,12 @@
         "source": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\exploded-aar\\waibao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable\\unspecified\\res\\layout\\rc_mention_members.xml"
     },
     {
-        "merged": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_main.xml",
         "source": "E:\\software\\git\\newwaibao\\waibao\\app\\src\\main\\res\\layout\\login_main.xml"
+    },
+    {
+        "merged": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "E:\\software\\git\\newwaibao\\waibao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
